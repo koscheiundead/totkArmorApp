@@ -2,25 +2,30 @@
 import { defineProps } from 'vue';
 import itemTile from './itemTile.vue';
 
-const head = "HEAD";
-const body = "BODY";
-const legs = "LEGS";
+const props = defineProps(["set"]);
+
+const head = props.set.head;
+
+const body = props.set.body;
+
+const legs = props.set.legs;
 </script>
 
 <template>
   <div id="cluster">
-    <itemTile :gearSlot=head title="title" description="a description of the item" location="123x, 213y, 321z"></itemTile>
-    <itemTile :gearSlot=body title="title" description="a description of the item" location="123x, 213y, 321z"></itemTile>
-    <itemTile :gearSlot=legs title="title" description="a description of the item" location="123x, 213y, 321z"></itemTile>
+    <itemTile v-if="head" gearSlot="head" :title=head.name :item=head></itemTile>
+    <itemTile v-if="body" gearSlot="body" :title=body.name :item=body></itemTile>
+    <itemTile v-if="legs" gearSlot="legs" :title=legs.name :item=legs></itemTile>
   </div>
 </template>
 
 <style>
 #cluster {
-display: inline-flex;
-left: 50px;
-justify-content: space-around;
-position: absolute;
-right: 50px;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
 }
 </style>

@@ -1,0 +1,3481 @@
+{
+  "hylian_set": {
+    "head": {
+      "name": "hylian hood",
+      "defense": 3,
+      "obtained": false,
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "Bokoblin horn": 5,
+        "defense": 5
+      },
+      "level2": {
+        "Rupees": 50,
+        "Blue Bokoblin horn": 5,
+        "Bokoblin fang": 3,
+        "defense": 8
+      },
+      "level3": {
+        "Rupees": 200,
+        "Amber": 20,
+        "Bokoblin guts": 3,
+        "Black Bokoblin horn": 5,
+        "defense": 12
+      },
+      "level4": {
+        "Rupees": 500,
+        "Bokoblin guts": 5,
+        "Amber": 30,
+        "Silver Bokoblin horn": 5,
+        "defense": 20
+      }
+    },
+    "body": {
+      "name": "hylian tunic",
+      "defense": 3,
+      "obtained": false,
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "Bokoblin horn": 5,
+        "defense": 5
+      },
+      "level2": {
+        "Rupees": 50,
+        "Blue Bokoblin horn": 5,
+        "Bokoblin fang": 3,
+        "defense": 8
+      },
+      "level3": {
+        "Rupees": 200,
+        "Amber": 20,
+        "Bokoblin guts": 3,
+        "Black Bokoblin horn": 5,
+        "defense": 12
+      },
+      "level4": {
+        "Rupees": 500,
+        "Bokoblin guts": 5,
+        "Amber": 30,
+        "Silver Bokoblin horn": 5,
+        "defense": 20
+      }
+    },
+    "legs": {
+      "name": "hylian trousers",
+      "defense": 3,
+      "obtained": false,
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "Bokoblin horn": 5,
+        "defense": 5
+      },
+      "level2": {
+        "Rupees": 50,
+        "Blue Bokoblin horn": 5,
+        "Bokoblin fang": 3,
+        "defense": 8
+      },
+      "level3": {
+        "Rupees": 200,
+        "Amber": 20,
+        "Bokoblin guts": 3,
+        "Black Bokoblin horn": 5,
+        "defense": 12
+      },
+      "level4": {
+        "Rupees": 500,
+        "Bokoblin guts": 5,
+        "Amber": 30,
+        "Silver Bokoblin horn": 5,
+        "defense": 20
+      }
+    }
+  },
+  "set_of_the_wild": {
+    "head": {
+      "name": "cap of the wild",
+      "defense": 4,
+      "obtained": false,
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 5,
+        "Acorn": 10,
+        "Farosh scale": 2
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 12,
+        "Courser Bee honey": 5,
+        "Farosh Claw": 2
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 18,
+        "Energetic rhino beetle": 3,
+        "Shard of Farosh fang": 2,
+        "Shard of Farosh spike": 5
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 28,
+        "Star fragment": 3,
+        "Farosh horn": 2,
+        "Shard of Farosh spike": 10
+      }
+    },
+    "body": {
+      "name": "tunic of the wild",
+      "defense": 3,
+      "obtained": false,
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 5
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 12,
+        "Courser Bee honey": 5,
+        "Farosh Claw": 2
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 18,
+        "Energetic rhino beetle": 3,
+        "Shard of Farosh fang": 2,
+        "Shard of Farosh spike": 5
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Star fragment": 3,
+        "Farosh horn": 2,
+        "Shard of Farosh spike": 10
+      }
+    },
+    "legs": {
+      "name": "trousers of the wild",
+      "defense": 3,
+      "obtained": false,
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 5
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 12,
+        "Courser Bee honey": 5,
+        "Farosh Claw": 2
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 18,
+        "Energetic rhino beetle": 3,
+        "Shard of Farosh fang": 2,
+        "Shard of Farosh spike": 5
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Star fragment": 3,
+        "Farosh horn": 2,
+        "Shard of Farosh spike": 10
+      }
+    }
+  },
+  "zora_set": {
+    "head": {
+      "name": "zora helm",
+      "defense": 3,
+      "obtained": false,
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 5,
+        "Lizalfos horn": 3
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 8,
+        "Hyrule bass": 5,
+        "Lizalfos talon": 5
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 12,
+        "Hearty bass": 3,
+        "Lizalfos tail": 3,
+        "Blue Lizalfos horn": 5
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Black Lizalfos horn": 5,
+        "Blue Lizalfos tail": 5,
+        "Opal": 20
+      }
+    },
+    "body": {
+      "name": "zora armor",
+      "defense": 3,
+      "obtained": false,
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 5,
+        "Lizalfos horn": 3
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 8,
+        "Hyrule bass": 5,
+        "Lizalfos talon": 5
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 12,
+        "Hearty bass": 3,
+        "Lizalfos tail": 3,
+        "Blue Lizalfos horn": 5
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Black Lizalfos horn": 5,
+        "Blue Lizalfos tail": 5,
+        "Opal": 20
+      }
+    },
+    "legs": {
+      "name": "zora greaves",
+      "defense": 3,
+      "obtained": false,
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 5,
+        "Lizalfos horn": 3
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 8,
+        "Hyrule bass": 5,
+        "Lizalfos talon": 5
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 12,
+        "Hearty bass": 3,
+        "Lizalfos tail": 3,
+        "Blue Lizalfos horn": 5
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Black Lizalfos horn": 5,
+        "Blue Lizalfos tail": 5,
+        "Opal": 20
+      }
+    }
+  },
+  "desert_voe_set": {
+    "head": {
+      "name": "desert voe headband",
+      "defense": 3,
+      "obtained": false,
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 5,
+        "White Chuchu jelly": 3
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 8,
+        "White Chuchu jelly": 5,
+        "Cool Safflina": 3
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 12,
+        "chillshroom": 5,
+        "Ice Keese wing": 5,
+        "Icebreath Lizalfos tail": 3
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Icebreath Lizalfos horn": 5,
+        "Icebreath Lizalfos tail": 10,
+        "Sapphire": 5
+      }
+    },
+    "body": {
+      "name": "desert voe spaulder",
+      "defense": 3,
+      "obtained": false,
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 5,
+        "White Chuchu jelly": 3
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 8,
+        "White Chuchu jelly": 5,
+        "Cool Safflina": 3
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 12,
+        "chillshroom": 5,
+        "Ice Keese wing": 5,
+        "Icebreath Lizalfos tail": 3
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Icebreath Lizalfos horn": 5,
+        "Icebreath Lizalfos tail": 10,
+        "Sapphire": 5
+      }
+    },
+    "legs": {
+      "name": "desert voe trousers",
+      "defense": 3,
+      "obtained": false,
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 5,
+        "White Chuchu jelly": 3
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 8,
+        "White Chuchu jelly": 5,
+        "Cool Safflina": 3
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 12,
+        "chillshroom": 5,
+        "Ice Keese wing": 5,
+        "Icebreath Lizalfos tail": 3
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Icebreath Lizalfos horn": 5,
+        "Icebreath Lizalfos tail": 10,
+        "Sapphire": 5
+      }
+    }
+  },
+  "snowquill_set": {
+    "head": {
+      "name": "snowquill headdress",
+      "defense": 3,
+      "obtained": false,
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 5,
+        "Red Chuchu jelly": 3
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 8,
+        "Red Chuchu jelly": 5,
+        "Warm Safflina": 3
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 12,
+        "Sunshroom": 5,
+        "Fire Keese wing": 5,
+        "Firebreath Lizalfos tail": 3
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Ruby": 5,
+        "Firebreath Lizalfos horn": 5,
+        "Firebreath Lizalfos tail": 10
+      }
+    },
+    "body": {
+      "name": "snowquill tunic",
+      "defense": 3,
+      "obtained": false,
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 5,
+        "Red Chuchu jelly": 3
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 8,
+        "Red Chuchu jelly": 5,
+        "Warm Safflina": 3
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 12,
+        "Sunshroom": 5,
+        "Fire Keese wing": 5,
+        "Firebreath Lizalfos tail": 3
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Ruby": 5,
+        "Firebreath Lizalfos horn": 5,
+        "Firebreath Lizalfos tail": 10
+      }
+    },
+    "legs": {
+      "name": "snowquill trousers",
+      "defense": 3,
+      "obtained": false,
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 5,
+        "Red Chuchu jelly": 3
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 8,
+        "Red Chuchu jelly": 5,
+        "Warm Safflina": 3
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 12,
+        "Sunshroom": 5,
+        "Fire Keese wing": 5,
+        "Firebreath Lizalfos tail": 3
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Ruby": 5,
+        "Firebreath Lizalfos horn": 5,
+        "Firebreath Lizalfos tail": 10
+      }
+    }
+  },
+  "flamebreaker_set": {
+    "head": {
+      "name": "flamebreaker helm",
+      "defense": 3,
+      "obtained": false,
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 5,
+        "Moblin horn": 3
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 8,
+        "Moblin fang": 5,
+        "Fireproof Lizard": 5
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 12,
+        "Blue Moblin horn": 5,
+        "Flint": 15,
+        "Smotherwing Butterfly": 3
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Firebreath Lizalfos horn": 5,
+        "Firebreath Lizalfos tail": 10,
+        "Ruby": 5
+      }
+    },
+    "legs": {
+      "name": "flamebreaker boots",
+      "defense": 3,
+      "level1": {
+        "Rupees": 10,
+        "defense": 5,
+        "Moblin horn": 3
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 8,
+        "Moblin fang": 5,
+        "Fireproof Lizard": 5
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 12,
+        "Blue Moblin horn": 5,
+        "Flint": 15,
+        "Smotherwing Butterfly": 3
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Firebreath Lizalfos horn": 5,
+        "Firebreath Lizalfos tail": 10,
+        "Ruby": 5
+      }
+    },
+    "body": {
+      "name": "flamebreaker armor",
+      "defense": 3,
+      "level1": {
+        "Rupees": 10,
+        "defense": 5,
+        "Moblin horn": 3
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 8,
+        "Moblin fang": 5,
+        "Fireproof Lizard": 5
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 12,
+        "Blue Moblin horn": 5,
+        "Flint": 15,
+        "Smotherwing Butterfly": 3
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Firebreath Lizalfos horn": 5,
+        "Firebreath Lizalfos tail": 10,
+        "Ruby": 5
+      }
+    }
+  },
+  "stealth_set": {
+    "head": {
+      "name": "stealth mask",
+      "defense": 2,
+      "obtained": false,
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 4,
+        "Blue Nightshade": 3
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 6,
+        "Sunset Firefly": 5,
+        "Blue Nightshade": 5
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 9,
+        "Silent Shroom": 8,
+        "Sneaky River Snail": 5
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 16,
+        "Sundelion": 10,
+        "Stealthfin Trout": 10,
+        "Silent Princess": 5
+      }
+    },
+    "legs": {
+      "name": "stealth tights",
+      "defense": 2,
+      "obtained": false,
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 4,
+        "Blue Nightshade": 3
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 6,
+        "Sunset Firefly": 5,
+        "Blue Nightshade": 5
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 9,
+        "Silent Shroom": 8,
+        "Sneaky River Snail": 5
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 16,
+        "Sundelion": 10,
+        "Stealthfin Trout": 10,
+        "Silent Princess": 5
+      }
+    },
+    "body": {
+      "name": "stealth chest guard",
+      "defense": 2,
+      "obtained": false,
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 4,
+        "Blue Nightshade": 3
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 6,
+        "Sunset Firefly": 5,
+        "Blue Nightshade": 5
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 9,
+        "Silent Shroom": 8,
+        "Sneaky River Snail": 5
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 16,
+        "Sundelion": 10,
+        "Stealthfin Trout": 10,
+        "Silent Princess": 5
+      }
+    }
+  },
+  "climbing_set": {
+    "head": {
+      "name": "climber's bandana",
+      "defense": 3,
+      "obtained": false,
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 5,
+        "Keese wing": 3,
+        "Rushroom": 3
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 8,
+        "Electric Keese wing": 5,
+        "Hightail lizard": 5
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 12,
+        "Hot-footed Frog": 10,
+        "Ice Keese wing": 8
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Swift Violet": 20,
+        "Fire Keese wing": 10
+      }
+    },
+    "legs": {
+      "name": "climbing boots",
+      "defense": 3,
+      "obtained": false,
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 5,
+        "Keese wing": 3,
+        "Rushroom": 3
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 8,
+        "Electric Keese wing": 5,
+        "Hightail lizard": 5
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 12,
+        "Hot-footed Frog": 10,
+        "Ice Keese wing": 8
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Swift Violet": 20,
+        "Fire Keese wing": 10
+      }
+    },
+    "body": {
+      "name": "climbing gear",
+      "defense": 3,
+      "obtained": false,
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 5,
+        "Keese wing": 3,
+        "Rushroom": 3
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 8,
+        "Electric Keese wing": 5,
+        "Hightail lizard": 5
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 12,
+        "Hot-footed Frog": 10,
+        "Ice Keese wing": 8
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Swift Violet": 20,
+        "Fire Keese wing": 10
+      }
+    }
+  },
+  "radiant_set": {
+    "head": {
+      "name": "radiant mask",
+      "defense": 3,
+      "obtained": false,
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 5,
+        "Luminous stone": 10,
+        "Bokoblin guts": 1
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 8,
+        "Luminous stone": 15,
+        "Moblin guts": 2
+      },
+      "level3": {
+        "Rupees": 200,
+        "Luminous stone": 20,
+        "Horriblin guts": 3,
+        "Gibdo bone": 10
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Luminous stone": 30,
+        "Lynel guts": 3,
+        "Molduga jaw": 3
+      }
+    },
+    "legs": {
+      "name": "radiant tights",
+      "defense": 3,
+      "obtained": false,
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 5,
+        "Luminous stone": 10,
+        "Bokoblin guts": 1
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 8,
+        "Luminous stone": 15,
+        "Moblin guts": 2
+      },
+      "level3": {
+        "Rupees": 200,
+        "Luminous stone": 20,
+        "Horriblin guts": 3,
+        "Gibdo bone": 10
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Luminous stone": 30,
+        "Lynel guts": 3,
+        "Molduga jaw": 3
+      }
+    },
+    "body": {
+      "name": "radiant shirt",
+      "defense": 3,
+      "obtained": false,
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 5,
+        "Luminous stone": 10,
+        "Bokoblin guts": 1
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 8,
+        "Luminous stone": 15,
+        "Moblin guts": 2
+      },
+      "level3": {
+        "Rupees": 200,
+        "Luminous stone": 20,
+        "Horriblin guts": 3,
+        "Gibdo bone": 10
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Luminous stone": 30,
+        "Lynel guts": 3,
+        "Molduga jaw": 3
+      }
+    }
+  },
+  "soldiers_set": {
+    "head": {
+      "name": "soldier's helm",
+      "defense": 4,
+      "obtained": false,
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 7,
+        "Chuchu jelly": 5,
+        "Bokoblin guts": 3
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 12,
+        "Keese eyeball": 5,
+        "Moblin guts": 3
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 18,
+        "Flint": 30,
+        "Lizalfos tail": 3,
+        "Hinox guts": 3
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 28,
+        "Lynel hoof": 5,
+        "Lynel guts": 5,
+        "Amber": 30
+      }
+    },
+    "legs": {
+      "name": "soldier's greaves",
+      "defense": 4,
+      "obtained": false,
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 7,
+        "Chuchu jelly": 5,
+        "Bokoblin guts": 3
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 12,
+        "Keese eyeball": 5,
+        "Moblin guts": 3
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 18,
+        "Flint": 30,
+        "Lizalfos tail": 3,
+        "Hinox guts": 3
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 28,
+        "Lynel hoof": 5,
+        "Lynel guts": 5,
+        "Amber": 30
+      }
+    },
+    "body": {
+      "name": "soldier's armor",
+      "defense": 4,
+      "obtained": false,
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 7,
+        "Chuchu jelly": 5,
+        "Bokoblin guts": 3
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 12,
+        "Keese eyeball": 5,
+        "Moblin guts": 3
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 18,
+        "Flint": 30,
+        "Lizalfos tail": 3,
+        "Hinox guts": 3
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 28,
+        "Lynel hoof": 5,
+        "Lynel guts": 5,
+        "Amber": 30
+      }
+    }
+  },
+  "bokoblin_mask": {
+    "head": {
+      "name": "bokoblin mask",
+      "defense": 3,
+      "obtained": false,
+      "level": 0
+    }
+  },
+  "diamond_circlet": {
+    "head": {
+      "name": "diamond circlet",
+      "defense": 4,
+      "obtained": false,
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 7,
+        "Diamond": 2,
+        "Flint": 3
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 12,
+        "Diamond": 3,
+        "Flint": 5
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 18,
+        "Diamond": 5,
+        "Star fragment": 1
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 28,
+        "Diamond": 8,
+        "Star fragment": 2
+      }
+    }
+  },
+  "ruby_circlet": {
+    "head": {
+      "name": "ruby circlet",
+      "defense": 3,
+      "obtained": false,
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 5,
+        "Ruby": 2,
+        "Flint": 3
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 8,
+        "Ruby": 4,
+        "Flint": 5
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 12,
+        "Ruby": 6,
+        "Star fragment": 1
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Ruby": 10,
+        "Star fragment": 2
+      }
+    }
+  },
+  "sapphire_circlet": {
+    "head": {
+      "name": "sapphire circlet",
+      "defense": 3,
+      "obtained": false,
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 5,
+        "Sapphire": 2,
+        "Flint": 3
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 8,
+        "Sapphire": 4,
+        "Flint": 5
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 12,
+        "Sapphire": 6,
+        "Star fragment": 1
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Sapphire": 10,
+        "Star fragment": 2
+      }
+    }
+  },
+  "topaz_earrings": {
+    "head": {
+      "name": "topaz earrings",
+      "defense": 3,
+      "obtained": false,
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 5,
+        "Topaz": 2,
+        "Flint": 3
+      },
+      "level2": {
+        "Rupees": 50,
+        "Topaz": 4,
+        "Flint": 5
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 12,
+        "Topaz": 6,
+        "Star fragment": 1
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Topaz": 10,
+        "Star fragment": 2
+      }
+    }
+  },
+  "opal_earrings": {
+    "head": {
+      "name": "opal earrings",
+      "defense": 3,
+      "obtained": false,
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 5,
+        "Opal": 6,
+        "Flint": 5
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 8,
+        "Opal": 12,
+        "Flint": 10
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 12,
+        "Opal": 18,
+        "Flint": 15
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Opal": 30,
+        "Flint": 25
+      }
+    }
+  },
+  "amber_earrings": {
+    "head": {
+      "name": "amber earrings",
+      "defense": 4,
+      "obtained": false,
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 7,
+        "Amber": 10,
+        "Flint": 5
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 12,
+        "Amber": 20,
+        "Flint": 10
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 18,
+        "Amber": 35,
+        "Flint": 15
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 28,
+        "Amber": 60,
+        "Flint": 25
+      }
+    }
+  },
+  "moblin_mask": {
+    "head": {
+      "name": "moblin mask",
+      "defense": 3,
+      "obtained": false,
+      "level": 0
+    }
+  },
+  "rubber_set": {
+    "head": {
+      "name": "rubber helm",
+      "defense": 3,
+      "obtained": false,
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 5,
+        "Yellow Chuchu jelly": 3,
+        "Electric Lizalfos horn": 1
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 8,
+        "Yellow Chuchu jelly": 8,
+        "Voltfruit": 5
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 12,
+        "Zapshroom": 5,
+        "Electric Lizalfos tail": 5,
+        "Electric Safflina": 8
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Topaz": 5,
+        "Electric Lizalfos horn": 5,
+        "Electric Lizalfos tail": 8
+      }
+    },
+    "legs": {
+      "name": "rubber tights",
+      "defense": 3,
+      "obtained": false,
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 5,
+        "Yellow Chuchu jelly": 3,
+        "Electric Lizalfos horn": 1
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 8,
+        "Yellow Chuchu jelly": 8,
+        "Voltfruit": 5
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 12,
+        "Zapshroom": 5,
+        "Electric Lizalfos tail": 5,
+        "Electric Safflina": 8
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Topaz": 5,
+        "Electric Lizalfos horn": 5,
+        "Electric Lizalfos tail": 8
+      }
+    },
+    "body": {
+      "name": "rubber armor",
+      "defense": 3,
+      "obtained": false,
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 5,
+        "Yellow Chuchu jelly": 3,
+        "Electric Lizalfos horn": 1
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 8,
+        "Yellow Chuchu jelly": 8,
+        "Voltfruit": 5
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 12,
+        "Zapshroom": 5,
+        "Electric Lizalfos tail": 5,
+        "Electric Safflina": 8
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Topaz": 5,
+        "Electric Lizalfos horn": 5,
+        "Electric Lizalfos tail": 8
+      }
+    }
+  },
+  "barbarian_set": {
+    "head": {
+      "name": "barbarian helm",
+      "defense": 3,
+      "obtained": false,
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "Mighty Thistle": 3
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 8,
+        "Razorshroom": 5,
+        "Lynel saber horn": 2,
+        "Lynel mace horn": 2
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 12,
+        "Blue-Maned Lynel saber horn": 3,
+        "Blue-Maned Lynel mace horn": 3,
+        "Razorclaw crab": 3
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "White-Maned Lynel Saber Horn": 3,
+        "White-Maned Lynel Mace Horn": 3,
+        "Bladed rhino beetle": 3
+      }
+    },
+    "legs": {
+      "name": "barbarian leg wraps",
+      "defense": 3,
+      "obtained": false,
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "Mighty Thistle": 3
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 8,
+        "Razorshroom": 5,
+        "Lynel saber horn": 2,
+        "Lynel mace horn": 2
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 12,
+        "Blue-Maned Lynel saber horn": 3,
+        "Blue-Maned Lynel mace horn": 3,
+        "Razorclaw crab": 3
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "White-Maned Lynel Saber Horn": 3,
+        "White-Maned Lynel Mace Horn": 3,
+        "Bladed rhino beetle": 3
+      }
+    },
+    "body": {
+      "name": "barbarian armor",
+      "defense": 3,
+      "obtained": false,
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "Mighty Thistle": 3
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 8,
+        "Razorshroom": 5,
+        "Lynel saber horn": 2,
+        "Lynel mace horn": 2
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 12,
+        "Blue-Maned Lynel saber horn": 3,
+        "Blue-Maned Lynel mace horn": 3,
+        "Razorclaw crab": 3
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "White-Maned Lynel Saber Horn": 3,
+        "White-Maned Lynel Mace Horn": 3,
+        "Bladed rhino beetle": 3
+      }
+    }
+  },
+  "sand_boots": {
+    "legs": {
+      "name": "sand boots",
+      "defense": 3,
+      "obtained": false,
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 5,
+        "Hightail lizard": 3
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 8,
+        "Gibdo bone": 20,
+        "Swift carrot": 5
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 12,
+        "Gibdo guts": 5,
+        "Rushroom": 10,
+        "Molduga fin": 5
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Molduga guts": 5,
+        "Swift Violet": 10,
+        "Hearty lizard": 5
+      }
+    }
+  },
+  "lizalfos_mask": {
+    "head": {
+      "name": "lizalfos mask",
+      "defense": 3,
+      "obtained": false,
+      "level": 0
+    }
+  },
+  "lynel_mask": {
+    "head": {
+      "name": "lynel mask",
+      "defense": 3,
+      "obtained": false,
+      "level": 0
+    }
+  },
+  "glide_set": {
+    "head": {
+      "name": "glide mask",
+      "defense": 2,
+      "obtained": false,
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 4,
+        "Keese wing": 3
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 6,
+        "Aerocuda Wing": 5,
+        "Aerocuda eyeball": 6
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 9,
+        "Aerocuda Wing": 6,
+        "Aerocuda eyeball": 8
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 16,
+        "Aerocuda Wing": 10,
+        "Gibdo wing": 8,
+        "Gleeok wing": 12
+      }
+    },
+    "legs": {
+      "name": "glide tights",
+      "defense": 2,
+      "obtained": false,
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 4,
+        "Keese wing": 3
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 6,
+        "Aerocuda Wing": 5,
+        "Aerocuda eyeball": 6
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 9,
+        "Aerocuda Wing": 6,
+        "Aerocuda eyeball": 8
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 16,
+        "Aerocuda Wing": 10,
+        "Gibdo wing": 8,
+        "Gleeok wing": 12
+      }
+    },
+    "body": {
+      "name": "glide shirt",
+      "defense": 2,
+      "obtained": false,
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 4,
+        "Keese wing": 3
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 6,
+        "Aerocuda Wing": 5,
+        "Aerocuda eyeball": 6
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 9,
+        "Aerocuda Wing": 6,
+        "Aerocuda eyeball": 8
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 16,
+        "Aerocuda Wing": 10,
+        "Gibdo wing": 8,
+        "Gleeok wing": 12
+      }
+    }
+  },
+  "ancient_heros_set": {
+    "head": {
+      "name": "ancient hero's aspect",
+      "defense": 12,
+      "obtained": false,
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 21,
+        "Silver Bokoblin horn": 9,
+        "Hinox guts": 9,
+        "Zonaite": 15
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 36,
+        "Silver Moblin horn": 9,
+        "Frox guts": 9,
+        "Large Zonaite": 10
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 54,
+        "Silver Lizalfos horn": 9,
+        "Molduga guts": 9,
+        "Large Zonaite": 15
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 84,
+        "Silver Lynel saber horn": 9,
+        "Silver Lynel mace horn": 9,
+        "gleeok guts": 9
+      }
+    }
+  },
+  "archaic_set": {
+    "head": {
+      "name": "archaic tunic",
+      "defense": 1,
+      "obtained": false,
+      "level": 0
+    },
+    "legs": {
+      "name": "archaic legwear",
+      "defense": 1,
+      "obtained": false,
+      "level": 0
+    }
+  },
+  "archaic_warm_greaves": {
+    "legs": {
+      "name": "archaic warm greaves",
+      "defense": 2,
+      "obtained": false,
+      "level": 0
+    }
+  },
+  "froggy_set": {
+    "head": {
+      "name": "froggy hood",
+      "defense": 3,
+      "obtained": false,
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 5,
+        "Sticky Lizard": 3
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 8,
+        "Sticky Lizard": 5,
+        "Horriblin horn": 5
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 12,
+        "Blue Horriblin horn": 5,
+        "Sticky Frog": 5
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Black Horriblin horn": 5,
+        "Horriblin guts": 10,
+        "Opal": 10
+      }
+    },
+    "legs": {
+      "name": "froggy leggings",
+      "defense": 3,
+      "obtained": false,
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 5,
+        "Sticky Lizard": 3
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 8,
+        "Sticky Lizard": 5,
+        "Horriblin horn": 5
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 12,
+        "Blue Horriblin horn": 5,
+        "Sticky Frog": 5
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Black Horriblin horn": 5,
+        "Horriblin guts": 10,
+        "Opal": 10
+      }
+    },
+    "body": {
+      "name": "froggy sleeve",
+      "defense": 3,
+      "obtained": false,
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 5,
+        "Sticky Lizard": 3
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 8,
+        "Sticky Lizard": 5,
+        "Horriblin horn": 5
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 12,
+        "Blue Horriblin horn": 5,
+        "Sticky Frog": 5
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Black Horriblin horn": 5,
+        "Horriblin guts": 10,
+        "Opal": 10
+      }
+    }
+  },
+  "miners_set": {
+    "head": {
+      "name": "miner's mask",
+      "defense": 3,
+      "obtained": false,
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 5,
+        "Brightbloom seed": 10
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 8,
+        "Brightbloom seed": 20,
+        "Brightcap": 5
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 20,
+        "Giant Brightbloom seed": 15,
+        "Deep Firefly": 10,
+        "Glowing Cave Fish": 5
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Giant Brightbloom seed": 20,
+        "Large Zonaite": 10,
+        "Diamond": 3
+      }
+    },
+    "legs": {
+      "name": "miner's trousers",
+      "defense": 3,
+      "obtained": false,
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 5,
+        "Brightbloom seed": 10
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 8,
+        "Brightbloom seed": 20,
+        "Brightcap": 5
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 20,
+        "Giant Brightbloom seed": 15,
+        "Deep Firefly": 10,
+        "Glowing Cave Fish": 5
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Giant Brightbloom seed": 20,
+        "Large Zonaite": 10,
+        "Diamond": 3
+      }
+    },
+    "body": {
+      "name": "miner's top",
+      "defense": 3,
+      "obtained": false,
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 5,
+        "Brightbloom seed": 10
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 8,
+        "Brightbloom seed": 20,
+        "Brightcap": 5
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 20,
+        "Giant Brightbloom seed": 15,
+        "Deep Firefly": 10,
+        "Glowing Cave Fish": 5
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Giant Brightbloom seed": 20,
+        "Large Zonaite": 10,
+        "Diamond": 3
+      }
+    }
+  },
+  "ember_set": {
+    "head": {
+      "name": "ember headdress",
+      "defense": 2,
+      "obtained": false,
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 4,
+        "Fire fruit": 3
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 6,
+        "Firebreath Lizalfos horn": 5,
+        "Summerwing butterfly": 5
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 9,
+        "Fire Like stone": 5,
+        "Warm Darner": 5,
+        "Large Zonai charge": 5
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 16,
+        "Gleeok flame horn": 5,
+        "Sizzlefin Trout": 10,
+        "Large Zonai charge": 10
+      }
+    },
+    "legs": {
+      "name": "ember trousers",
+      "defense": 2,
+      "obtained": false,
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 4,
+        "Fire fruit": 3
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 6,
+        "Firebreath Lizalfos horn": 5,
+        "Summerwing butterfly": 5
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 9,
+        "Fire Like stone": 5,
+        "Warm Darner": 5,
+        "Large Zonai charge": 5
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 16,
+        "Gleeok flame horn": 5,
+        "Sizzlefin Trout": 10,
+        "Large Zonai charge": 10
+      }
+    },
+    "body": {
+      "name": "ember shirt",
+      "defense": 2,
+      "obtained": false,
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 4,
+        "Fire fruit": 3
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 6,
+        "Firebreath Lizalfos horn": 5,
+        "Summerwing butterfly": 5
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 9,
+        "Fire Like stone": 5,
+        "Warm Darner": 5,
+        "Large Zonai charge": 5
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 16,
+        "Gleeok flame horn": 5,
+        "Sizzlefin Trout": 10,
+        "Large Zonai charge": 10
+      }
+    }
+  },
+  "charged_set": {
+    "head": {
+      "name": "charged headdress",
+      "defense": 3,
+      "obtained": false,
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 5,
+        "Shock fruit": 3
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 8,
+        "Thunderwing Butterfly": 3,
+        "Electric Lizalfos horn": 5
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 12,
+        "Shock Like stone": 5,
+        "Electric Darner": 5,
+        "Large Zonai charge": 3
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Gleeok thunder horn": 5,
+        "Voltfin trout": 10,
+        "Large Zonai charge": 5
+      }
+    },
+    "legs": {
+      "name": "charged trousers",
+      "defense": 3,
+      "obtained": false,
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 5,
+        "Shock fruit": 3
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 8,
+        "Thunderwing Butterfly": 3,
+        "Electric Lizalfos horn": 5
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 12,
+        "Shock Like stone": 5,
+        "Electric Darner": 5,
+        "Large Zonai charge": 3
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Gleeok thunder horn": 5,
+        "Voltfin trout": 10,
+        "Large Zonai charge": 5
+      }
+    },
+    "body": {
+      "name": "charged shirt",
+      "defense": 3,
+      "obtained": false,
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 5,
+        "Shock fruit": 3
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 8,
+        "Thunderwing Butterfly": 3,
+        "Electric Lizalfos horn": 5
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 12,
+        "Shock Like stone": 5,
+        "Electric Darner": 5,
+        "Large Zonai charge": 3
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Gleeok thunder horn": 5,
+        "Voltfin trout": 10,
+        "Large Zonai charge": 5
+      }
+    }
+  },
+  "frostbite_set": {
+    "head": {
+      "name": "frostbite headdress",
+      "defense": 2,
+      "obtained": false,
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 4,
+        "Ice fruit": 3
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 6,
+        "Icebreath Lizalfos horn": 5,
+        "Winterwing Butterfly": 5
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 9,
+        "Ice Like stone": 5,
+        "Cold Darner": 5,
+        "Large Zonai charge": 5
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 16,
+        "Gleeok frost horn": 5,
+        "Chillfin trout": 10,
+        "Large Zonai charge": 10
+      }
+    },
+    "legs": {
+      "name": "frostbite trousers",
+      "defense": 2,
+      "obtained": false,
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 4,
+        "Ice fruit": 3
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 6,
+        "Icebreath Lizalfos horn": 5,
+        "Winterwing Butterfly": 5
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 9,
+        "Ice Like stone": 5,
+        "Cold Darner": 5,
+        "Large Zonai charge": 5
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 16,
+        "Gleeok frost horn": 5,
+        "Chillfin trout": 10,
+        "Large Zonai charge": 10
+      }
+    },
+    "body": {
+      "name": "frostbite shirt",
+      "defense": 2,
+      "obtained": false,
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 4,
+        "Ice fruit": 3
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 6,
+        "Icebreath Lizalfos horn": 5,
+        "Winterwing Butterfly": 5
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 9,
+        "Ice Like stone": 5,
+        "Cold Darner": 5,
+        "Large Zonai charge": 5
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 16,
+        "Gleeok frost horn": 5,
+        "Chillfin trout": 10,
+        "Large Zonai charge": 10
+      }
+    }
+  },
+  "cece_hat": {
+    "head": {
+      "name": "cece hat",
+      "defense": 3,
+      "obtained": false,
+      "level": 0
+    }
+  },
+  "mystic_set": {
+    "head": {
+      "name": "mystic headpiece",
+      "defense": 3,
+      "obtained": false,
+      "level": 0
+    },
+    "legs": {
+      "name": "mystic trousers",
+      "defense": 3,
+      "obtained": false,
+      "level": 0
+    },
+    "body": {
+      "name": "mystic robe",
+      "defense": 3,
+      "obtained": false,
+      "level": 0
+    }
+  },
+  "zonaite_set": {
+    "head": {
+      "name": "zonaite helm",
+      "defense": 4,
+      "obtained": false,
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 7,
+        "Soldier Construct Horn": 5
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 12,
+        "Soldier Construct II Horn": 5,
+        "Zonaite": 5,
+        "Catain Construct I Horn": 5
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 18,
+        "Large Zonaite": 5,
+        "Catain Construct II Horn": 5,
+        "Soldier Construct III Horn": 5
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 28,
+        "Large Zonaite": 10,
+        "Captain Construct III Horn": 5,
+        "Soldier Construct IV Horn": 5
+      }
+    },
+    "legs": {
+      "name": "zonaite shin guards",
+      "defense": 4,
+      "obtained": false,
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 7,
+        "Soldier Construct Horn": 5
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 12,
+        "Soldier Construct II Horn": 5,
+        "Zonaite": 5,
+        "Catain Construct I Horn": 5
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 18,
+        "Large Zonaite": 5,
+        "Catain Construct II Horn": 5,
+        "Soldier Construct III Horn": 5
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 28,
+        "Large Zonaite": 10,
+        "Captain Construct III Horn": 5,
+        "Soldier Construct IV Horn": 5
+      }
+    },
+    "body": {
+      "name": "zonaite waistguard",
+      "defense": 4,
+      "obtained": false,
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 7,
+        "Soldier Construct Horn": 5
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 12,
+        "Soldier Construct II Horn": 5,
+        "Zonaite": 5,
+        "Catain Construct I Horn": 5
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 18,
+        "Large Zonaite": 5,
+        "Catain Construct II Horn": 5,
+        "Soldier Construct III Horn": 5
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 28,
+        "Large Zonaite": 10,
+        "Captain Construct III Horn": 5,
+        "Soldier Construct IV Horn": 5
+      }
+    }
+  },
+  "awakening_set": {
+    "head": {
+      "name": "mask of awakening",
+      "defense": 3,
+      "obtained": false,
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 5,
+        "Luminous stone": 10,
+        "Star fragment": 1
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 8,
+        "Luminous stone": 15,
+        "Star fragment": 1
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 12,
+        "Luminous stone": 20,
+        "Star fragment": 1
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Luminous stone": 30,
+        "Star fragment": 1
+      }
+    },
+    "legs": {
+      "name": "trousers of awakening",
+      "defense": 3,
+      "obtained": false,
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 5,
+        "Luminous stone": 10,
+        "Star fragment": 1
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 8,
+        "Luminous stone": 15,
+        "Star fragment": 1
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 12,
+        "Luminous stone": 20,
+        "Star fragment": 1
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Luminous stone": 30,
+        "Star fragment": 1
+      }
+    },
+    "body": {
+      "name": "tunic of awakening",
+      "defense": 3,
+      "obtained": false,
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 5,
+        "Luminous stone": 10,
+        "Star fragment": 1
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 8,
+        "Luminous stone": 15,
+        "Star fragment": 1
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 12,
+        "Luminous stone": 20,
+        "Star fragment": 1
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Luminous stone": 30,
+        "Star fragment": 1
+      }
+    }
+  },
+  "champions_tunic": {
+    "head": {
+      "name": "champion's tunic",
+      "defense": 5,
+      "obtained": false,
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 8,
+        "Silent Princess": 3,
+        "Light Dragon's scale": 2
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 14,
+        "Silent Princess": 3,
+        "Light Dragon's talon": 2,
+        "Sundelion": 10
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 22,
+        "Silent Princess": 5,
+        "Shard of Light Dragon's fang": 2,
+        "Sundelion": 15
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 32,
+        "Silent Princess": 10,
+        "Light Dragon's horn": 2,
+        "Sundelion": 20
+      }
+    }
+  },
+  "horriblin_mask": {
+    "head": {
+      "name": "horriblin mask",
+      "defense": 3,
+      "obtained": false,
+      "level": 0
+    }
+  },
+  "depths_set": {
+    "head": {
+      "name": "hood of the depths",
+      "defense": 3,
+      "obtained": false,
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 5,
+        "Deep Firefly": 3
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 8,
+        "Dark clump": 5,
+        "Frox fang": 3
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 12,
+        "Zonaite": 20,
+        "Frox fingernail": 3,
+        "Obsidian Frox fang": 3
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Blue-White Frox fang": 5,
+        "Large Zonaite": 10,
+        "Frox guts": 3
+      }
+    },
+    "legs": {
+      "name": "gaiters of the depths",
+      "defense": 3,
+      "obtained": false,
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 5,
+        "Deep Firefly": 3
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 8,
+        "Dark clump": 5,
+        "Frox fang": 3
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 12,
+        "Zonaite": 20,
+        "Frox fingernail": 3,
+        "Obsidian Frox fang": 3
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Blue-White Frox fang": 5,
+        "Large Zonaite": 10,
+        "Frox guts": 3
+      }
+    },
+    "body": {
+      "name": "tunic of the depths",
+      "defense": 3,
+      "obtained": false,
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 5,
+        "Deep Firefly": 3
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 8,
+        "Dark clump": 5,
+        "Frox fang": 3
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 12,
+        "Zonaite": 20,
+        "Frox fingernail": 3,
+        "Obsidian Frox fang": 3
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Blue-White Frox fang": 5,
+        "Large Zonaite": 10,
+        "Frox guts": 3
+      }
+    }
+  },
+  "wellworn_hair_band": {
+    "head": {
+      "name": "well-worn hair band",
+      "defense": 0,
+      "obtained": false,
+      "level": 0
+    }
+  },
+  "tunic_of_memories": {
+    "body": {
+      "name": "tunic of memories",
+      "defense": 4,
+      "obtained": false,
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 7,
+        "Silent Princess": 3,
+        "Light Dragon's scale": 1
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 12,
+        "Silent Princess": 3,
+        "Light Dragon's talon": 1,
+        "Farosh's horn": 2
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 18,
+        "Silent Princess": 5,
+        "Shard of Light Dragon's fang": 1,
+        "Naydra's horn": 2
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 28,
+        "Silent Princess": 10,
+        "Light Dragon's horn": 1,
+        "Dinraal's horn": 2
+      }
+    }
+  },
+  "yiga_set": {
+    "head": {
+      "name": "yiga mask",
+      "defense": 1,
+      "obtained": false,
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 3,
+        "Octorok eyeball": 2
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 5,
+        "puffshroom": 3,
+        "Firebreath Lizalfos tail": 3
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 7,
+        "Icebreath Lizalfos tail": 5,
+        "Keese eyeball": 5
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 12,
+        "Electric Lizalfos tail": 5,
+        "Black Hinox horn": 3,
+        "Mighty Bananas": 10
+      }
+    },
+    "legs": {
+      "name": "yiga tights",
+      "defense": 1,
+      "obtained": false,
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 3,
+        "Octorok eyeball": 2
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 5,
+        "puffshroom": 3,
+        "Firebreath Lizalfos tail": 3
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 7,
+        "Icebreath Lizalfos tail": 5,
+        "Keese eyeball": 5
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 12,
+        "Electric Lizalfos tail": 5,
+        "Black Hinox horn": 3,
+        "Mighty Bananas": 10
+      }
+    },
+    "body": {
+      "name": "yiga armor",
+      "defense": 1,
+      "obtained": false,
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 3,
+        "Octorok eyeball": 2
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 5,
+        "puffshroom": 3,
+        "Firebreath Lizalfos tail": 3
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 7,
+        "Icebreath Lizalfos tail": 5,
+        "Keese eyeball": 5
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 12,
+        "Electric Lizalfos tail": 5,
+        "Black Hinox horn": 3,
+        "Mighty Bananas": 10
+      }
+    }
+  },
+  "snow_boots": {
+    "legs": {
+      "name": "snow boots",
+      "defense": 3,
+      "obtained": false,
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 5,
+        "Hightail lizard": 3
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 8,
+        "Octorok tentacle": 5,
+        "Swift carrot": 5
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 12,
+        "Octo balloon": 5,
+        "Rushroom": 20
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Naydra's scale": 2,
+        "Swift Violet": 20
+      }
+    }
+  },
+  "dark_set": {
+    "head": {
+      "name": "dark hood",
+      "defense": 3,
+      "obtained": false,
+      "level": 0
+    },
+    "legs": {
+      "name": "dark trousers",
+      "defense": 3,
+      "obtained": false,
+      "level": 0
+    },
+    "body": {
+      "name": "dark tunic",
+      "defense": 3,
+      "obtained": false,
+      "level": 0
+    }
+  },
+  "phantom_set": {
+    "head": {
+      "name": "phantom helmet",
+      "defense": 8,
+      "obtained": false,
+      "level": 0
+    },
+    "legs": {
+      "name": "phantom greaves",
+      "defense": 8,
+      "obtained": false,
+      "level": 0
+    },
+    "body": {
+      "name": "phantom armor",
+      "defense": 8,
+      "obtained": false,
+      "level": 0
+    }
+  },
+  "majoras_mask": {
+    "head": {
+      "name": "majora's mask",
+      "defense": 1,
+      "obtained": false,
+      "level": 0
+    }
+  },
+  "midnas_helmet": {
+    "head": {
+      "name": "midna's helmet",
+      "defense": 7,
+      "obtained": false,
+      "level": 0
+    }
+  },
+  "tingles_set": {
+    "head": {
+      "name": "tingle's hood",
+      "defense": 2,
+      "obtained": false,
+      "level": 0
+    },
+    "legs": {
+      "name": "tingle's tights",
+      "defense": 2,
+      "obtained": false,
+      "level": 0
+    },
+    "body": {
+      "name": "tingle's shirt",
+      "defense": 2,
+      "obtained": false,
+      "level": 0
+    }
+  },
+  "island_lobster_shirt": {
+    "body": {
+      "name": "island lobster shirt",
+      "defense": 1,
+      "obtained": false,
+      "level": 0
+    }
+  },
+  "korok_mask": {
+    "head": {
+      "name": "korok mask",
+      "defense": 1,
+      "obtained": false,
+      "level": 0
+    }
+  },
+  "ravios_hood": {
+    "head": {
+      "name": "ravio's hood",
+      "defense": 2,
+      "obtained": false,
+      "level": 0
+    }
+  },
+  "zants_helmet": {
+    "head": {
+      "name": "zant's helmet",
+      "defense": 3,
+      "obtained": false,
+      "level": 0
+    }
+  },
+  "royal_guard_set": {
+    "head": {
+      "name": "royal guard cap",
+      "defense": 4,
+      "obtained": false,
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 6,
+        "Bokoblin guts": 3,
+        "Boss Bokoblin horn": 3
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 10,
+        "Blue Boss Bokoblin horn": 3,
+        "Boss Bokoblin fang": 3
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 15,
+        "Black Boss Bokoblin horn": 3,
+        "Hinox guts": 3
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 24,
+        "Silver Boss Bokoblin horn": 3,
+        "Molduga guts": 3,
+        "gleeok guts": 3
+      }
+    },
+    "legs": {
+      "name": "royal guard boots",
+      "defense": 4,
+      "obtained": false,
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 6,
+        "Bokoblin guts": 3,
+        "Boss Bokoblin horn": 3
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 10,
+        "Blue Boss Bokoblin horn": 3,
+        "Boss Bokoblin fang": 3
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 15,
+        "Black Boss Bokoblin horn": 3,
+        "Hinox guts": 3
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 24,
+        "Silver Boss Bokoblin horn": 3,
+        "Molduga guts": 3,
+        "gleeok guts": 3
+      }
+    },
+    "body": {
+      "name": "royal guard uniform",
+      "defense": 4,
+      "obtained": false,
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 6,
+        "Bokoblin guts": 3,
+        "Boss Bokoblin horn": 3
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 10,
+        "Blue Boss Bokoblin horn": 3,
+        "Boss Bokoblin fang": 3
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 15,
+        "Black Boss Bokoblin horn": 3,
+        "Hinox guts": 3
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 24,
+        "Silver Boss Bokoblin horn": 3,
+        "Molduga guts": 3,
+        "gleeok guts": 3
+      }
+    }
+  },
+  "evil_spirit_set": {
+    "head": {
+      "name": "evil spirit mask",
+      "defense": 4,
+      "obtained": false,
+      "level": 0
+    },
+    "legs": {
+      "name": "evil spirit greaves",
+      "defense": 4,
+      "obtained": false,
+      "level": 0
+    },
+    "body": {
+      "name": "evil spirit armor",
+      "defense": 4,
+      "obtained": false,
+      "level": 0
+    }
+  },
+  "vah_ruta_divine_helm": {
+    "head": {
+      "name": "vah ruta divine helm",
+      "defense": 2,
+      "obtained": false,
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 4,
+        "Zonaite": 5,
+        "Opal": 5
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 6,
+        "Zonaite": 10,
+        "Opal": 10
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 9,
+        "Opal": 15,
+        "Large Zonaite": 5,
+        "Dazzlefruit": 5
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 16,
+        "Opal": 25,
+        "Large Zonaite": 10,
+        "Dazzlefruit": 10
+      }
+    }
+  },
+  "vah_medoh_divine_helm": {
+    "head": {
+      "name": "vah medoh divine helm",
+      "defense": 2,
+      "obtained": false,
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 4,
+        "Zonaite": 5,
+        "Sapphire": 1
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 6,
+        "Zonaite": 10,
+        "Sapphire": 4
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 9,
+        "Sapphire": 6,
+        "Large Zonaite": 5,
+        "Dazzlefruit": 5
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 16,
+        "Sapphire": 10,
+        "Large Zonaite": 10,
+        "Dazzlefruit": 10
+      }
+    }
+  },
+  "vah_rudania_divine_helm": {
+    "head": {
+      "name": "vah rudania divine helm",
+      "defense": 2,
+      "obtained": false,
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 4,
+        "Zonaite": 5,
+        "Ruby": 1
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 6,
+        "Zonaite": 10,
+        "Ruby": 4
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 9,
+        "Ruby": 6,
+        "Large Zonaite": 5,
+        "Dazzlefruit": 5
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 16,
+        "Ruby": 10,
+        "Large Zonaite": 10,
+        "Dazzlefruit": 10
+      }
+    }
+  },
+  "vah_naboris_divine_helm": {
+    "head": {
+      "name": "vah naboris divine helm",
+      "defense": 2,
+      "obtained": false,
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 4,
+        "Zonaite": 5,
+        "Topaz": 1
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 6,
+        "Zonaite": 10,
+        "Topaz": 4
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 9,
+        "Topaz": 6,
+        "Large Zonaite": 5,
+        "Dazzlefruit": 5
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 16,
+        "Topaz": 10,
+        "Large Zonaite": 10,
+        "Dazzlefruit": 10
+      }
+    }
+  },
+  "time_set": {
+    "head": {
+      "name": "cap of time",
+      "defense": 3,
+      "obtained": false,
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 5,
+        "Amber": 10,
+        "Star fragment": 1
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 8,
+        "Amber": 20,
+        "Star fragment": 1
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 12,
+        "Amber": 30,
+        "Star fragment": 1
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Amber": 40,
+        "Star fragment": 1
+      }
+    },
+    "legs": {
+      "name": "trousers of time",
+      "defense": 3,
+      "obtained": false,
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 5,
+        "Amber": 10,
+        "Star fragment": 1
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 8,
+        "Amber": 20,
+        "Star fragment": 1
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 12,
+        "Amber": 30,
+        "Star fragment": 1
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Amber": 40,
+        "Star fragment": 1
+      }
+    },
+    "body": {
+      "name": "tunic of time",
+      "defense": 3,
+      "obtained": false,
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 5,
+        "Amber": 10,
+        "Star fragment": 1
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 8,
+        "Amber": 20,
+        "Star fragment": 1
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 12,
+        "Amber": 30,
+        "Star fragment": 1
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Amber": 40,
+        "Star fragment": 1
+      }
+    }
+  },
+  "wind_set": {
+    "head": {
+      "name": "cap of the wind",
+      "defense": 3,
+      "obtained": false,
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 5,
+        "Opal": 5,
+        "Star fragment": 1
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 8,
+        "Opal": 10,
+        "Star fragment": 1
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 12,
+        "Opal": 15,
+        "Star fragment": 1
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Opal": 25,
+        "Star fragment": 1
+      }
+    },
+    "legs": {
+      "name": "trousers of the wind",
+      "defense": 3,
+      "obtained": false,
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 5,
+        "Opal": 5,
+        "Star fragment": 1
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 8,
+        "Opal": 10,
+        "Star fragment": 1
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 12,
+        "Opal": 15,
+        "Star fragment": 1
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Opal": 25,
+        "Star fragment": 1
+      }
+    },
+    "body": {
+      "name": "tunic of the wind",
+      "defense": 3,
+      "obtained": false,
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 5,
+        "Opal": 5,
+        "Star fragment": 1
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 8,
+        "Opal": 10,
+        "Star fragment": 1
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 12,
+        "Opal": 15,
+        "Star fragment": 1
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Opal": 25,
+        "Star fragment": 1
+      }
+    }
+  },
+  "twilight_set": {
+    "head": {
+      "name": "cap of twilight",
+      "defense": 3,
+      "obtained": false,
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 5,
+        "Topaz": 1,
+        "Star fragment": 1
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 8,
+        "Topaz": 4,
+        "Star fragment": 1
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 12,
+        "Topaz": 6,
+        "Star fragment": 1
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Topaz": 10,
+        "Star fragment": 1
+      }
+    },
+    "legs": {
+      "name": "trousers of twilight",
+      "defense": 3,
+      "obtained": false,
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 5,
+        "Topaz": 1,
+        "Star fragment": 1
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 8,
+        "Topaz": 4,
+        "Star fragment": 1
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 12,
+        "Topaz": 6,
+        "Star fragment": 1
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Topaz": 10,
+        "Star fragment": 1
+      }
+    },
+    "body": {
+      "name": "tunic of twilight",
+
+      "defense": 3,
+      "level": 0,
+      "obtained": false,
+      "level1": {
+        "Rupees": 10,
+        "defense": 5,
+        "Topaz": 1,
+        "Star fragment": 1
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 8,
+        "Topaz": 4,
+        "Star fragment": 1
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 12,
+        "Topaz": 6,
+        "Star fragment": 1
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Topaz": 10,
+        "Star fragment": 1
+      }
+    }
+  },
+  "sky_set": {
+    "head": {
+      "name": "cap of the sky",
+      "defense": 3,
+      "obtained": false,
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 5,
+        "Sapphire": 1,
+        "Star fragment": 1
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 8,
+        "Sapphire": 4,
+        "Star fragment": 1
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 12,
+        "Sapphire": 6,
+        "Star fragment": 1
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Sapphire": 10,
+        "Star fragment": 1
+      }
+    },
+    "legs": {
+      "name": "trousers of the sky",
+      "defense": 3,
+      "obtained": false,
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 5,
+        "Sapphire": 1,
+        "Star fragment": 1
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 8,
+        "Sapphire": 4,
+        "Star fragment": 1
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 12,
+        "Sapphire": 6,
+        "Star fragment": 1
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Sapphire": 10,
+        "Star fragment": 1
+      }
+    },
+    "body": {
+      "name": "tunic of the sky",
+      "defense": 3,
+      "obtained": false,
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 5,
+        "Sapphire": 1,
+        "Star fragment": 1
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 8,
+        "Sapphire": 4,
+        "Star fragment": 1
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 12,
+        "Sapphire": 6,
+        "Star fragment": 1
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Sapphire": 10,
+        "Star fragment": 1
+      }
+    }
+  },
+  "sheiks_mask": {
+    "head": {
+      "name": "sheik's mask",
+      "defense": 2,
+      "obtained": false,
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 4,
+        "Silent Princess": 1,
+        "Star fragment": 1
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 6,
+        "Silent Princess": 2,
+        "Star fragment": 2
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 9,
+        "Silent Princess": 4,
+        "Star fragment": 3
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 16,
+        "Silent Princess": 8,
+        "Star fragment": 4
+      }
+    }
+  },
+  "fierce_deity_set": {
+    "head": {
+      "name": "fierce deity mask",
+      "defense": 3,
+      "obtained": false,
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 5,
+        "Hinox toenail": 5,
+        "Dinraal's scale": 1
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 8,
+        "Hinox tooth": 5,
+        "Dinraal's claw": 1
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 9,
+        "Hinox guts": 2,
+        "Shard of Dinraal's fang": 1
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Lynel guts": 2,
+        "Dinraal's horn": 1
+      }
+    },
+    "legs": {
+      "name": "fierce deity boots",
+      "defense": 3,
+      "obtained": false,
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 5,
+        "Hinox toenail": 5,
+        "Dinraal's scale": 1
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 8,
+        "Hinox tooth": 5,
+        "Dinraal's claw": 1
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 9,
+        "Hinox guts": 2,
+        "Shard of Dinraal's fang": 1
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Lynel guts": 2,
+        "Dinraal's horn": 1
+      }
+    },
+    "body": {
+      "name": "fierce deity armor",
+      "defense": 3,
+      "obtained": false,
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 5,
+        "Hinox toenail": 5,
+        "Dinraal's scale": 1
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 8,
+        "Hinox tooth": 5,
+        "Dinraal's claw": 1
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 9,
+        "Hinox guts": 2,
+        "Shard of Dinraal's fang": 1
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Lynel guts": 2,
+        "Dinraal's horn": 1
+      }
+    }
+  },
+  "hero_set": {
+    "head": {
+      "name": "cap of the hero",
+      "defense": 3,
+      "obtained": false,
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 5,
+        "Ruby": 1,
+        "Star fragment": 1
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 8,
+        "Ruby": 4,
+        "Star fragment": 1
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 12,
+        "Ruby": 6,
+        "Star fragment": 1
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Ruby": 10,
+        "Star fragment": 1
+      }
+    },
+    "legs": {
+      "name": "trousers of the hero",
+      "defense": 3,
+      "obtained": false,
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 5,
+        "Ruby": 1,
+        "Star fragment": 1
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 8,
+        "Ruby": 4,
+        "Star fragment": 1
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 12,
+        "Ruby": 6,
+        "Star fragment": 1
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Ruby": 10,
+        "Star fragment": 1
+      }
+    },
+    "body": {
+      "name": "tunic of the hero",
+      "defense": 3,
+      "obtained": false,
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 5,
+        "Ruby": 1,
+        "Star fragment": 1
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 8,
+        "Ruby": 4,
+        "Star fragment": 1
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 12,
+        "Ruby": 6,
+        "Star fragment": 1
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Ruby": 10,
+        "Star fragment": 1
+      }
+    }
+  }
+}
