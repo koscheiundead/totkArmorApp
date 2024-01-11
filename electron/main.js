@@ -1,5 +1,6 @@
-const {app, BrowserWindow, ipcMain} = require("electron");
-const path = require("node:path");
+const { app, BrowserWindow, ipcMain } = require("electron");
+const fs = require('fs');
+const path = require("path");
 
 process.env.DIST = path.join(__dirname, "../dist");
 process.env.VITE_PUBLIC = app.isPackaged
@@ -43,3 +44,13 @@ app.on("activate", () => {
 });
 
 app.whenReady().then(createWindow);
+
+ipcMain.handle('read-file', async (event, filePath) => {
+  const absolutePath = path.join(__dirname, filePath);
+  return fs.promises.readFile(absolutePath, 'utf8');
+})
+
+ipcMain.handle('write-file', async (event, filePath, content) => {
+  const absolutePath = path.join(__dirname, filePath);
+  return fs.promises.FileSystemWritableFileStream(absolutePath, content, 'utf8');
+})

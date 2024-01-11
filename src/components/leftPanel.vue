@@ -1,10 +1,11 @@
 <script setup>
-import { reactive, ref, defineProps, computed } from 'vue';
-const props = defineProps(['armor']);
+import { reactive, ref } from 'vue';
+const props = defineProps(['armor', 'obtainedSelect']);
+const emit = defineEmits(['obtainedSwap']);
 const setObj = props.armor;
+const obtainedOnly = props.obtainedSelect;
 
-const ingredients = reactive({});
-const obtainedOnly = ref(false);
+const ingredients = ref({});
 
 const ingredientsCalculator = () => {
   const sets = [];
@@ -46,13 +47,13 @@ const ingredientsCalculator = () => {
   }
 
   for (const [key, value] of Object.entries(parts)) {
-    if (key !== "defense") ingredients[key] = value;
+    if (key !== "defense") ingredients.value[key] = value;
   }
 };
-const miniCalc = val => {
+const miniCalc = (val) => {
   if (val === undefined) return;
   const parts = {};
-  if (val.obtained && obtainedOnly || !obtainedOnly) {
+  if (val.obtained && obtainedOnly.value || !obtainedOnly.value) {
     if (val.level1) {
       for (const [key, value] of Object.entries(val.level1)) {
         if (parts[key]) {
@@ -91,13 +92,19 @@ const miniCalc = val => {
     }
   }
   return parts;
-}
+};
+const loading = ref(true);
 ingredientsCalculator();
+loading.value = false;
+const toggleObtained = () => {
+  emit('obtainedSwap')
+  ingredientsCalculator();
+}
 </script>
 
 <template>
-  <div id="recap-panel">
-    <input type="checkbox" name="obtained-box" v-model="obtainedOnly"><label for="obtained-box">Obtained only</label>
+  <div id="recap-panel" v-if="!loading">
+    <input type="checkbox" name="obtained-box" @click="toggleObtained()"><label for="obtained-box">Obtained only</label>
     <h4>Item Summary</h4>
     <ul>
       <li v-for="(value, key) in ingredients">{{ value }} {{ key }}</li>
@@ -113,7 +120,6 @@ ingredientsCalculator();
   left: 5px;
   opacity: 75%;
   position: sticky;
-  top: 5px;
   width: 225px;
 }
 

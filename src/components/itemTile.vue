@@ -6,7 +6,6 @@ const gearSlot = props.gearSlot
 
 const armor = props.item;
 const defense = ref(armor.defence);
-const level = ref(armor.level);
 const obtained = ref(armor.obtained);
 
 const obtain = () => {
@@ -80,7 +79,7 @@ ingredientsCalculator();
     <div id="topline">
       <button id="itemGetter" @click="obtain">{{ obtained ? "sell" : "obtain" }}</button>
       <h6 id="slot-placement">{{ gearSlot }}</h6>
-      <h6 id="gear-level">level: {{ level }}</h6>
+      <h6 id="gear-level">level: {{ armor.level }}</h6>
     </div>
     <h4 id="item-title">{{ title }}</h4>
     <p>Item: {{ description }}</p>
