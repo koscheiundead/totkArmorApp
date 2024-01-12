@@ -1,33 +1,32 @@
 <script setup>
-import { ref, reactive } from 'vue';
+import { inject, ref, reactive } from 'vue';
 import itemTile from './components/itemTile.vue';
 
-let armorItems;
-async function loadData() {
-  let data;
+let armorItems = inject('armoritems');
+// async function loadData() {
+//   let data;
 
-  try {
-    data = await window.api.invoke('read-file', 'userData.json');
-  } catch (userDataError) {
-    console.error("Error reading user data:", userDataError);
-  }
+//   try {
+//     data = await window.api.invoke('read-file', 'userData.json');
+//   } catch (userDataError) {
+//     console.error("Error reading user data:", userDataError);
+//   }
 
-  if (!data) {
-    try {
-      data = await window.api.invoke("read-file", "../data/armor.json");
-    } catch (templateError) {
-      console.error("Error loading user data:", templateError);
-      return;
-    }
-  }
+//   if (!data) {
+//     try {
+//       data = await window.api.invoke("read-file", "../data/armor.json");
+//     } catch (templateError) {
+//       console.error("Error loading user data:", templateError);
+//       return;
+//     }
+//   }
 
-  try {
-    armorItems = JSON.parse(data);
-  } catch (parseError) {
-    console.error("Error parsing JSON data:", parseError);
-  }
-}
-
+//   try {
+//     armorItems = JSON.parse(data);
+//   } catch (parseError) {
+//     console.error("Error parsing JSON data:", parseError);
+//   }
+// }
 
 const show = ref(true);
 const toggleShow = () => {
@@ -37,6 +36,10 @@ const toggleShow = () => {
 const obtainedToggle = ref(false);
 const toggleObtained = () => {
   obtainedToggle.value = !obtainedToggle.value;
+  ingredients.value = {};
+  loading.value = true;
+  ingredientsCalculator();
+  loading.value = false;
 }
 
 const ingredients = ref({});
@@ -88,7 +91,7 @@ const miniCalc = (val) => {
   if (val === undefined) return;
   const parts = {};
   if (val.obtained && obtainedToggle.value || !obtainedToggle.value) {
-    if (val.level1) {
+    if (val.level1 && val.level < 1) {
       for (const [key, value] of Object.entries(val.level1)) {
         if (parts[key]) {
           parts[key] += value;
@@ -97,7 +100,7 @@ const miniCalc = (val) => {
         }
       }
     }
-    if (val.level2) {
+    if (val.level2 && val.level < 2) {
       for (const [key, value] of Object.entries(val.level2)) {
         if (parts[key]) {
           parts[key] += value;
@@ -106,7 +109,7 @@ const miniCalc = (val) => {
         }
       }
     }
-    if (val.level3) {
+    if (val.level3 && val.level < 3) {
       for (const [key, value] of Object.entries(val.level3)) {
         if (parts[key]) {
           parts[key] += value;
@@ -115,7 +118,7 @@ const miniCalc = (val) => {
         }
       }
     }
-    if (val.level4) {
+    if (val.level4 && val.level < 4) {
       for (const [key, value] of Object.entries(val.level4)) {
         if (parts[key]) {
           parts[key] += value;
@@ -130,11 +133,19 @@ const miniCalc = (val) => {
 
 let armorObj;
 let loading = ref(true);
-loadData().then(() => {
-  armorObj = armorItems;
+// loadData().then(() => {
+  armorObj = reactive(armorItems);
+  ingredients.value = {};
   ingredientsCalculator();
   loading.value = false;
-});
+// });
+
+const calcAgain = () => {
+  loading.value = true;
+  ingredients.value = {};
+  ingredientsCalculator();
+  loading.value = false;
+}
 </script>
 
 <template>
@@ -154,9 +165,9 @@ loadData().then(() => {
     </div>
     <div id="set-tiles-wrapper">
       <div id="cluster" v-for="(armor, index) in armorObj" :key="index">
-        <itemTile v-if="armor.head" gearSlot="head" :title=armor.head.name :item=armor.head></itemTile>
-        <itemTile v-if="armor.body" gearSlot="body" :title=armor.body.name :item=armor.body></itemTile>
-        <itemTile v-if="armor.legs" gearSlot="legs" :title=armor.legs.name :item=armor.legs></itemTile>
+        <itemTile v-if="armor.head" gearSlot="head" :title=armor.head.name :item=armor.head @recalculate="calcAgain"></itemTile>
+        <itemTile v-if="armor.body" gearSlot="body" :title=armor.body.name :item=armor.body @recalculate="calcAgain"></itemTile>
+        <itemTile v-if="armor.legs" gearSlot="legs" :title=armor.legs.name :item=armor.legs @recalculate="calcAgain"></itemTile>
       </div>
     </div>
   </div>
@@ -176,17 +187,19 @@ loadData().then(() => {
   align-items: center;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
   margin-top: 0px;
   padding-top: 0px;
   top: 0px;
   width: 700px;
-  background-color: pink;
 }
 
 #cluster {
   display: flex;
-  align-content: space-between;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  position: relative;
+  width: 700px;
 }
 
 #loaded-wrapper {

@@ -4,6 +4,8 @@
       "name": "hylian hood",
       "defense": 3,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0,
       "level1": {
         "Rupees": 10,
@@ -35,6 +37,8 @@
       "name": "hylian tunic",
       "defense": 3,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0,
       "level1": {
         "Rupees": 10,
@@ -66,6 +70,8 @@
       "name": "hylian trousers",
       "defense": 3,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0,
       "level1": {
         "Rupees": 10,
@@ -99,6 +105,8 @@
       "name": "cap of the wild",
       "defense": 4,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0,
       "level1": {
         "Rupees": 10,
@@ -131,6 +139,8 @@
       "name": "tunic of the wild",
       "defense": 3,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0,
       "level1": {
         "Rupees": 10,
@@ -161,6 +171,8 @@
       "name": "trousers of the wild",
       "defense": 3,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0,
       "level1": {
         "Rupees": 10,
@@ -193,6 +205,8 @@
       "name": "zora helm",
       "defense": 3,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0,
       "level1": {
         "Rupees": 10,
@@ -224,6 +238,8 @@
       "name": "zora armor",
       "defense": 3,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0,
       "level1": {
         "Rupees": 10,
@@ -255,6 +271,8 @@
       "name": "zora greaves",
       "defense": 3,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0,
       "level1": {
         "Rupees": 10,
@@ -288,6 +306,8 @@
       "name": "desert voe headband",
       "defense": 3,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0,
       "level1": {
         "Rupees": 10,
@@ -319,6 +339,8 @@
       "name": "desert voe spaulder",
       "defense": 3,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0,
       "level1": {
         "Rupees": 10,
@@ -350,6 +372,8 @@
       "name": "desert voe trousers",
       "defense": 3,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0,
       "level1": {
         "Rupees": 10,
@@ -383,6 +407,8 @@
       "name": "snowquill headdress",
       "defense": 3,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0,
       "level1": {
         "Rupees": 10,
@@ -414,6 +440,8 @@
       "name": "snowquill tunic",
       "defense": 3,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0,
       "level1": {
         "Rupees": 10,
@@ -445,6 +473,8 @@
       "name": "snowquill trousers",
       "defense": 3,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0,
       "level1": {
         "Rupees": 10,
@@ -478,6 +508,8 @@
       "name": "flamebreaker helm",
       "defense": 3,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0,
       "level1": {
         "Rupees": 10,
@@ -569,6 +601,8 @@
       "name": "stealth mask",
       "defense": 2,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0,
       "level1": {
         "Rupees": 10,
@@ -599,6 +633,8 @@
       "name": "stealth tights",
       "defense": 2,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0,
       "level1": {
         "Rupees": 10,
@@ -629,6 +665,8 @@
       "name": "stealth chest guard",
       "defense": 2,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0,
       "level1": {
         "Rupees": 10,
@@ -661,6 +699,8 @@
       "name": "climber's bandana",
       "defense": 3,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0,
       "level1": {
         "Rupees": 10,
@@ -691,6 +731,8 @@
       "name": "climbing boots",
       "defense": 3,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0,
       "level1": {
         "Rupees": 10,
@@ -721,6 +763,8 @@
       "name": "climbing gear",
       "defense": 3,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0,
       "level1": {
         "Rupees": 10,
@@ -753,6 +797,8 @@
       "name": "radiant mask",
       "defense": 3,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0,
       "level1": {
         "Rupees": 10,
@@ -784,6 +830,8 @@
       "name": "radiant tights",
       "defense": 3,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0,
       "level1": {
         "Rupees": 10,
@@ -815,6 +863,8 @@
       "name": "radiant shirt",
       "defense": 3,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0,
       "level1": {
         "Rupees": 10,
@@ -848,6 +898,8 @@
       "name": "soldier's helm",
       "defense": 4,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0,
       "level1": {
         "Rupees": 10,
@@ -880,6 +932,8 @@
       "name": "soldier's greaves",
       "defense": 4,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0,
       "level1": {
         "Rupees": 10,
@@ -912,6 +966,8 @@
       "name": "soldier's armor",
       "defense": 4,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0,
       "level1": {
         "Rupees": 10,
@@ -946,6 +1002,8 @@
       "name": "bokoblin mask",
       "defense": 3,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0
     }
   },
@@ -954,6 +1012,8 @@
       "name": "diamond circlet",
       "defense": 4,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0,
       "level1": {
         "Rupees": 10,
@@ -986,6 +1046,8 @@
       "name": "ruby circlet",
       "defense": 3,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0,
       "level1": {
         "Rupees": 10,
@@ -1018,6 +1080,8 @@
       "name": "sapphire circlet",
       "defense": 3,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0,
       "level1": {
         "Rupees": 10,
@@ -1050,6 +1114,8 @@
       "name": "topaz earrings",
       "defense": 3,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0,
       "level1": {
         "Rupees": 10,
@@ -1081,6 +1147,8 @@
       "name": "opal earrings",
       "defense": 3,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0,
       "level1": {
         "Rupees": 10,
@@ -1113,6 +1181,8 @@
       "name": "amber earrings",
       "defense": 4,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0,
       "level1": {
         "Rupees": 10,
@@ -1145,6 +1215,8 @@
       "name": "moblin mask",
       "defense": 3,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0
     }
   },
@@ -1153,6 +1225,8 @@
       "name": "rubber helm",
       "defense": 3,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0,
       "level1": {
         "Rupees": 10,
@@ -1185,6 +1259,8 @@
       "name": "rubber tights",
       "defense": 3,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0,
       "level1": {
         "Rupees": 10,
@@ -1217,6 +1293,8 @@
       "name": "rubber armor",
       "defense": 3,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0,
       "level1": {
         "Rupees": 10,
@@ -1251,6 +1329,8 @@
       "name": "barbarian helm",
       "defense": 3,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0,
       "level1": {
         "Rupees": 10,
@@ -1282,6 +1362,8 @@
       "name": "barbarian leg wraps",
       "defense": 3,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0,
       "level1": {
         "Rupees": 10,
@@ -1313,6 +1395,8 @@
       "name": "barbarian armor",
       "defense": 3,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0,
       "level1": {
         "Rupees": 10,
@@ -1346,6 +1430,8 @@
       "name": "sand boots",
       "defense": 3,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0,
       "level1": {
         "Rupees": 10,
@@ -1379,6 +1465,8 @@
       "name": "lizalfos mask",
       "defense": 3,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0
     }
   },
@@ -1387,6 +1475,8 @@
       "name": "lynel mask",
       "defense": 3,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0
     }
   },
@@ -1395,6 +1485,8 @@
       "name": "glide mask",
       "defense": 2,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0,
       "level1": {
         "Rupees": 10,
@@ -1425,6 +1517,8 @@
       "name": "glide tights",
       "defense": 2,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0,
       "level1": {
         "Rupees": 10,
@@ -1455,6 +1549,8 @@
       "name": "glide shirt",
       "defense": 2,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0,
       "level1": {
         "Rupees": 10,
@@ -1487,6 +1583,8 @@
       "name": "ancient hero's aspect",
       "defense": 12,
       "obtained": false,
+      "location": "0453, -0764, 1467",
+      "description": "A single piece of armor awarded for completing all 152 shrines.",
       "level": 0,
       "level1": {
         "Rupees": 10,
@@ -1523,12 +1621,16 @@
       "name": "archaic tunic",
       "defense": 1,
       "obtained": false,
+      "location": null,
+      "description": "Old-fashioned upper-body wear. It's got some holes, but the soft cloth feels good to the touch. It's hard to keep wrinkle-free. ",
       "level": 0
     },
     "legs": {
       "name": "archaic legwear",
       "defense": 1,
       "obtained": false,
+      "location": null,
+      "description": "Simple, classic legwear. They're well-worn and showing their age, but they've still got a few good years left in them. It can be a bit cumbersome to have to tie the straps. ",
       "level": 0
     }
   },
@@ -1537,6 +1639,8 @@
       "name": "archaic warm greaves",
       "defense": 2,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0
     }
   },
@@ -1545,6 +1649,8 @@
       "name": "froggy hood",
       "defense": 3,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0,
       "level1": {
         "Rupees": 10,
@@ -1575,6 +1681,8 @@
       "name": "froggy leggings",
       "defense": 3,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0,
       "level1": {
         "Rupees": 10,
@@ -1605,6 +1713,8 @@
       "name": "froggy sleeve",
       "defense": 3,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0,
       "level1": {
         "Rupees": 10,
@@ -1637,6 +1747,8 @@
       "name": "miner's mask",
       "defense": 3,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0,
       "level1": {
         "Rupees": 10,
@@ -1668,6 +1780,8 @@
       "name": "miner's trousers",
       "defense": 3,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0,
       "level1": {
         "Rupees": 10,
@@ -1699,6 +1813,8 @@
       "name": "miner's top",
       "defense": 3,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0,
       "level1": {
         "Rupees": 10,
@@ -1732,6 +1848,8 @@
       "name": "ember headdress",
       "defense": 2,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0,
       "level1": {
         "Rupees": 10,
@@ -1763,6 +1881,8 @@
       "name": "ember trousers",
       "defense": 2,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0,
       "level1": {
         "Rupees": 10,
@@ -1794,6 +1914,8 @@
       "name": "ember shirt",
       "defense": 2,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0,
       "level1": {
         "Rupees": 10,
@@ -1827,6 +1949,8 @@
       "name": "charged headdress",
       "defense": 3,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0,
       "level1": {
         "Rupees": 10,
@@ -1858,6 +1982,8 @@
       "name": "charged trousers",
       "defense": 3,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0,
       "level1": {
         "Rupees": 10,
@@ -1889,6 +2015,8 @@
       "name": "charged shirt",
       "defense": 3,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0,
       "level1": {
         "Rupees": 10,
@@ -1922,6 +2050,8 @@
       "name": "frostbite headdress",
       "defense": 2,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0,
       "level1": {
         "Rupees": 10,
@@ -1953,6 +2083,8 @@
       "name": "frostbite trousers",
       "defense": 2,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0,
       "level1": {
         "Rupees": 10,
@@ -1984,6 +2116,8 @@
       "name": "frostbite shirt",
       "defense": 2,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0,
       "level1": {
         "Rupees": 10,
@@ -2017,6 +2151,8 @@
       "name": "cece hat",
       "defense": 3,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0
     }
   },
@@ -2025,18 +2161,24 @@
       "name": "mystic headpiece",
       "defense": 3,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0
     },
     "legs": {
       "name": "mystic trousers",
       "defense": 3,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0
     },
     "body": {
       "name": "mystic robe",
       "defense": 3,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0
     }
   },
@@ -2045,6 +2187,8 @@
       "name": "zonaite helm",
       "defense": 4,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0,
       "level1": {
         "Rupees": 10,
@@ -2077,6 +2221,8 @@
       "name": "zonaite shin guards",
       "defense": 4,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0,
       "level1": {
         "Rupees": 10,
@@ -2109,6 +2255,8 @@
       "name": "zonaite waistguard",
       "defense": 4,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0,
       "level1": {
         "Rupees": 10,
@@ -2143,6 +2291,8 @@
       "name": "mask of awakening",
       "defense": 3,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0,
       "level1": {
         "Rupees": 10,
@@ -2173,6 +2323,8 @@
       "name": "trousers of awakening",
       "defense": 3,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0,
       "level1": {
         "Rupees": 10,
@@ -2203,6 +2355,8 @@
       "name": "tunic of awakening",
       "defense": 3,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0,
       "level1": {
         "Rupees": 10,
@@ -2235,6 +2389,8 @@
       "name": "champion's tunic",
       "defense": 5,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0,
       "level1": {
         "Rupees": 10,
@@ -2270,6 +2426,8 @@
       "name": "horriblin mask",
       "defense": 3,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0
     }
   },
@@ -2278,6 +2436,8 @@
       "name": "hood of the depths",
       "defense": 3,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0,
       "level1": {
         "Rupees": 10,
@@ -2309,6 +2469,8 @@
       "name": "gaiters of the depths",
       "defense": 3,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0,
       "level1": {
         "Rupees": 10,
@@ -2340,6 +2502,8 @@
       "name": "tunic of the depths",
       "defense": 3,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0,
       "level1": {
         "Rupees": 10,
@@ -2373,6 +2537,8 @@
       "name": "well-worn hair band",
       "defense": 0,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0
     }
   },
@@ -2381,6 +2547,8 @@
       "name": "tunic of memories",
       "defense": 4,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0,
       "level1": {
         "Rupees": 10,
@@ -2416,6 +2584,8 @@
       "name": "yiga mask",
       "defense": 1,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0,
       "level1": {
         "Rupees": 10,
@@ -2446,6 +2616,8 @@
       "name": "yiga tights",
       "defense": 1,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0,
       "level1": {
         "Rupees": 10,
@@ -2476,6 +2648,8 @@
       "name": "yiga armor",
       "defense": 1,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0,
       "level1": {
         "Rupees": 10,
@@ -2508,6 +2682,8 @@
       "name": "snow boots",
       "defense": 3,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0,
       "level1": {
         "Rupees": 10,
@@ -2539,18 +2715,24 @@
       "name": "dark hood",
       "defense": 3,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0
     },
     "legs": {
       "name": "dark trousers",
       "defense": 3,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0
     },
     "body": {
       "name": "dark tunic",
       "defense": 3,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0
     }
   },
@@ -2559,18 +2741,24 @@
       "name": "phantom helmet",
       "defense": 8,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0
     },
     "legs": {
       "name": "phantom greaves",
       "defense": 8,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0
     },
     "body": {
       "name": "phantom armor",
       "defense": 8,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0
     }
   },
@@ -2579,6 +2767,8 @@
       "name": "majora's mask",
       "defense": 1,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0
     }
   },
@@ -2587,6 +2777,8 @@
       "name": "midna's helmet",
       "defense": 7,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0
     }
   },
@@ -2595,18 +2787,24 @@
       "name": "tingle's hood",
       "defense": 2,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0
     },
     "legs": {
       "name": "tingle's tights",
       "defense": 2,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0
     },
     "body": {
       "name": "tingle's shirt",
       "defense": 2,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0
     }
   },
@@ -2615,6 +2813,8 @@
       "name": "island lobster shirt",
       "defense": 1,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0
     }
   },
@@ -2623,6 +2823,8 @@
       "name": "korok mask",
       "defense": 1,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0
     }
   },
@@ -2631,6 +2833,8 @@
       "name": "ravio's hood",
       "defense": 2,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0
     }
   },
@@ -2639,6 +2843,8 @@
       "name": "zant's helmet",
       "defense": 3,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0
     }
   },
@@ -2647,6 +2853,8 @@
       "name": "royal guard cap",
       "defense": 4,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0,
       "level1": {
         "Rupees": 10,
@@ -2678,6 +2886,8 @@
       "name": "royal guard boots",
       "defense": 4,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0,
       "level1": {
         "Rupees": 10,
@@ -2709,6 +2919,8 @@
       "name": "royal guard uniform",
       "defense": 4,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0,
       "level1": {
         "Rupees": 10,
@@ -2742,18 +2954,24 @@
       "name": "evil spirit mask",
       "defense": 4,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0
     },
     "legs": {
       "name": "evil spirit greaves",
       "defense": 4,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0
     },
     "body": {
       "name": "evil spirit armor",
       "defense": 4,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0
     }
   },
@@ -2762,6 +2980,8 @@
       "name": "vah ruta divine helm",
       "defense": 2,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0,
       "level1": {
         "Rupees": 10,
@@ -2796,6 +3016,8 @@
       "name": "vah medoh divine helm",
       "defense": 2,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0,
       "level1": {
         "Rupees": 10,
@@ -2830,6 +3052,8 @@
       "name": "vah rudania divine helm",
       "defense": 2,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0,
       "level1": {
         "Rupees": 10,
@@ -2864,6 +3088,8 @@
       "name": "vah naboris divine helm",
       "defense": 2,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0,
       "level1": {
         "Rupees": 10,
@@ -2898,6 +3124,8 @@
       "name": "cap of time",
       "defense": 3,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0,
       "level1": {
         "Rupees": 10,
@@ -2928,6 +3156,8 @@
       "name": "trousers of time",
       "defense": 3,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0,
       "level1": {
         "Rupees": 10,
@@ -2958,6 +3188,8 @@
       "name": "tunic of time",
       "defense": 3,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0,
       "level1": {
         "Rupees": 10,
@@ -2990,6 +3222,8 @@
       "name": "cap of the wind",
       "defense": 3,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0,
       "level1": {
         "Rupees": 10,
@@ -3020,6 +3254,8 @@
       "name": "trousers of the wind",
       "defense": 3,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0,
       "level1": {
         "Rupees": 10,
@@ -3050,6 +3286,8 @@
       "name": "tunic of the wind",
       "defense": 3,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0,
       "level1": {
         "Rupees": 10,
@@ -3082,6 +3320,8 @@
       "name": "cap of twilight",
       "defense": 3,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0,
       "level1": {
         "Rupees": 10,
@@ -3112,6 +3352,8 @@
       "name": "trousers of twilight",
       "defense": 3,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0,
       "level1": {
         "Rupees": 10,
@@ -3144,6 +3386,8 @@
       "defense": 3,
       "level": 0,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level1": {
         "Rupees": 10,
         "defense": 5,
@@ -3175,6 +3419,8 @@
       "name": "cap of the sky",
       "defense": 3,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0,
       "level1": {
         "Rupees": 10,
@@ -3205,6 +3451,8 @@
       "name": "trousers of the sky",
       "defense": 3,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0,
       "level1": {
         "Rupees": 10,
@@ -3235,6 +3483,8 @@
       "name": "tunic of the sky",
       "defense": 3,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0,
       "level1": {
         "Rupees": 10,
@@ -3267,6 +3517,8 @@
       "name": "sheik's mask",
       "defense": 2,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0,
       "level1": {
         "Rupees": 10,
@@ -3299,6 +3551,8 @@
       "name": "fierce deity mask",
       "defense": 3,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0,
       "level1": {
         "Rupees": 10,
@@ -3329,6 +3583,8 @@
       "name": "fierce deity boots",
       "defense": 3,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0,
       "level1": {
         "Rupees": 10,
@@ -3359,6 +3615,8 @@
       "name": "fierce deity armor",
       "defense": 3,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0,
       "level1": {
         "Rupees": 10,
@@ -3391,6 +3649,8 @@
       "name": "cap of the hero",
       "defense": 3,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0,
       "level1": {
         "Rupees": 10,
@@ -3421,6 +3681,8 @@
       "name": "trousers of the hero",
       "defense": 3,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0,
       "level1": {
         "Rupees": 10,
@@ -3451,6 +3713,8 @@
       "name": "tunic of the hero",
       "defense": 3,
       "obtained": false,
+      "location": null,
+      "description": null,
       "level": 0,
       "level1": {
         "Rupees": 10,

@@ -1,22 +1,28 @@
 <script setup>
-import { defineProps, ref } from 'vue'
+import { defineProps, ref, reactive } from 'vue'
 
-const props = defineProps(['gearSlot', 'title', 'description', 'location', 'item']);
-const gearSlot = props.gearSlot
+const props = defineProps(['gearSlot', 'title', 'item']);
+const emits = defineEmits(['recalculate']);
+const gearSlot = props.gearSlot;
 
-const armor = props.item;
+const armor = reactive(props.item);
 const defense = ref(armor.defence);
+const description = armor.description;
+const location = armor.location;
 const obtained = ref(armor.obtained);
 
 const obtain = () => {
-  obtained.value = !obtained.value;
+  armor.obtained = !armor.obtained;
+  obtained.value = armor.obtained;
+  if (!armor.obtained) armor.level = 0;
+  emit("recalculate");
 }
 
 const ingredients = ref({});
 const ingredientsCalculator = () => {
   let parts = [];
   let val = armor
-  if (val.level1) {
+  if (val.level1 && val.level < 1) {
     for (const [key, value] of Object.entries(val.level1)) {
       ;
       if (parts[key] === undefined) {
@@ -26,7 +32,7 @@ const ingredientsCalculator = () => {
       }
     }
   }
-  if (val.level2) {
+  if (val.level2 && val.level < 2) {
     for (const [key, value] of Object.entries(val.level2)) {
       ;
       if (parts[key] === undefined) {
@@ -36,7 +42,7 @@ const ingredientsCalculator = () => {
       }
     }
   }
-  if (val.level3) {
+  if (val.level3 && val.level < 3) {
     for (const [key, value] of Object.entries(val.level3)) {
       ;
       if (parts[key] === undefined) {
@@ -46,17 +52,7 @@ const ingredientsCalculator = () => {
       }
     }
   }
-  if (val.level3) {
-    for (const [key, value] of Object.entries(val.level3)) {
-      ;
-      if (parts[key] === undefined) {
-        parts[key] = value;
-      } else {
-        parts[key] += value;
-      }
-    }
-  }
-  if (val.level4) {
+  if (val.level4 && val.level < 4) {
     for (const [key, value] of Object.entries(val.level4)) {
       ;
       if (parts[key] === undefined) {
@@ -72,6 +68,23 @@ const ingredientsCalculator = () => {
   }
 };
 ingredientsCalculator();
+
+const levelUp = () => {
+  if (armor.level < 4) {
+    armor.level++;
+  }
+  ingredients.value = {};
+  ingredientsCalculator();
+  emit("recalculate");
+}
+const levelDown = () => {
+  if (armor.level > 0) {
+    armor.level--;
+  }
+  ingredients.value = {};
+  ingredientsCalculator();
+  emit("recalculate")
+}
 </script>
 
 <template>
@@ -82,12 +95,18 @@ ingredientsCalculator();
       <h6 id="gear-level">level: {{ armor.level }}</h6>
     </div>
     <h4 id="item-title">{{ title }}</h4>
-    <p>Item: {{ description }}</p>
-    <p>Location: {{ location }}</p>
-    <p v-if="armor.level1 && armor.level < 4">Items to max level:</p>
-    <ul v-if="ingredients">
-      <li v-for="(value, key) in ingredients">{{ value }} {{ key }}</li>
-    </ul>
+    <p v-if="description !== null && description !== undefined">Item: {{ description }}</p>
+    <p v-if="location !== null && location !== undefined">Location: {{ location }}</p>
+    <div v-if="armor.level1">
+      <div v-if="armor.obtained">
+        <button @click="levelUp" v-if="armor.level < 4">level up</button>
+        <button @click="levelDown" v-if="armor.level > 0">level down</button>
+      </div>
+      <p v-if="armor.level < 4">Items to max level:</p>
+      <ul v-if="ingredients">
+        <li v-for="(value, key) in ingredients">{{ value }} {{ key }}</li>
+      </ul>
+    </div>
   </div>
 </template>
 
