@@ -97,7 +97,7 @@ const levelDown = () => {
       <h6 id="gear-level">level: {{ armor.level }}</h6>
     </div>
     <h4 id="item-title">{{ title }}</h4>
-    <p v-if="description !== null && description !== undefined">Item: {{ description }}</p>
+    <p v-if="description !== null && description !== undefined">{{ description }}</p>
     <p v-if="location !== null && location !== undefined">Location: {{ location }}</p>
     <div v-if="armor.level1">
       <div v-if="armor.obtained">
