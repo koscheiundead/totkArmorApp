@@ -37,9 +37,7 @@ const obtainedToggle = ref(false);
 const toggleObtained = () => {
   obtainedToggle.value = !obtainedToggle.value;
   ingredients.value = {};
-  loading.value = true;
   ingredientsCalculator();
-  loading.value = false;
 }
 
 const ingredients = ref({});
@@ -132,30 +130,26 @@ const miniCalc = (val) => {
 };
 
 let armorObj;
-let loading = ref(true);
 // loadData().then(() => {
   armorObj = reactive(armorItems);
   ingredients.value = {};
   ingredientsCalculator();
-  loading.value = false;
 // });
 
 const calcAgain = () => {
-  loading.value = true;
   ingredients.value = {};
   ingredientsCalculator();
-  loading.value = false;
 }
 </script>
 
 <template>
-  <div v-if="!loading" id="loaded-wrapper">
+  <div id="loaded-wrapper">
     <div id="hide-summary" :class="{ moveDown: !show }">
       <input type="checkbox" name="hide-box" @click="toggleShow()"><label for="hide-box"><span
           v-if="show === true">hide</span><span v-else>hide</span> side panel</label>
     </div>
     <div id="left-panel" v-if="show">
-      <div id="recap-panel" v-if="!loading">
+      <div id="recap-panel">
     <input type="checkbox" name="obtained-box" @click="toggleObtained()"><label for="obtained-box">Obtained only</label>
     <h4>Item Summary</h4>
     <ul>

@@ -1,9 +1,11 @@
 <script setup>
-import { defineProps, ref, reactive } from 'vue'
+import { defineEmits, defineProps, ref, reactive, inject } from 'vue'
 
 const props = defineProps(['gearSlot', 'title', 'item']);
-const emits = defineEmits(['recalculate']);
+const emit = defineEmits(['recalculate']);
 const gearSlot = props.gearSlot;
+
+const armorItems = inject("armoritems");
 
 const armor = reactive(props.item);
 const defense = ref(armor.defence);
@@ -71,7 +73,7 @@ ingredientsCalculator();
 
 const levelUp = () => {
   if (armor.level < 4) {
-    armor.level++;
+    armor.level++
   }
   ingredients.value = {};
   ingredientsCalculator();
@@ -79,7 +81,7 @@ const levelUp = () => {
 }
 const levelDown = () => {
   if (armor.level > 0) {
-    armor.level--;
+    armor.level--
   }
   ingredients.value = {};
   ingredientsCalculator();
