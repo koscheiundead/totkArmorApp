@@ -1,6 +1,8 @@
 const { app, BrowserWindow, ipcMain } = require("electron");
 const fs = require('fs');
 const path = require("path");
+const Store = require('electron-store');
+const store = new Store();
 
 process.env.DIST = path.join(__dirname, "../dist");
 process.env.VITE_PUBLIC = app.isPackaged
@@ -37,20 +39,23 @@ app.on("window-all-closed", () => {
     win = null;
   }
 });
-app.on("activate", () => {
-  if (BrowserWindow.getAllWindows().length === 0) {
-    createWindow();
-  }
+
+
+app.whenReady().then(() => {
+  createWindow()
+
+
+  ipcMain.on('set-data', (event, key, value) => {
+    store.set(key, value);
+  })
+
+  ipcMain.handle('get-data', (event, key) => {
+    return store.get(key);
+  })
 });
 
-app.whenReady().then(createWindow);
-
-ipcMain.handle('read-file', async (event, filePath) => {
-  const absolutePath = path.join(__dirname, filePath);
-  return fs.promises.readFile(absolutePath, 'utf8');
-})
-
-ipcMain.handle('write-file', async (event, filePath, content) => {
-  const absolutePath = path.join(__dirname, filePath);
-  return fs.promises.FileSystemWritableFileStream(absolutePath, content, 'utf8');
+app.on("window-all-closed", () => {
+  if (process.platform !== "darwin") {
+    app.quit();
+  }
 })

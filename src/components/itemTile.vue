@@ -1,5 +1,5 @@
 <script setup>
-import { defineEmits, defineProps, ref, reactive, inject } from 'vue'
+import { ref, reactive, inject } from 'vue'
 
 const props = defineProps(['gearSlot', 'title', 'item']);
 const emit = defineEmits(['recalculate']);

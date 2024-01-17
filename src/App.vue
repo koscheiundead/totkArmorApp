@@ -131,9 +131,9 @@ const miniCalc = (val) => {
 
 let armorObj;
 // loadData().then(() => {
-  armorObj = reactive(armorItems);
-  ingredients.value = {};
-  ingredientsCalculator();
+armorObj = reactive(armorItems);
+ingredients.value = {};
+ingredientsCalculator();
 // });
 
 const calcAgain = () => {
@@ -150,18 +150,22 @@ const calcAgain = () => {
     </div>
     <div id="left-panel" v-if="show">
       <div id="recap-panel">
-    <input type="checkbox" name="obtained-box" @click="toggleObtained()"><label for="obtained-box">Obtained only</label>
-    <h4>Item Summary</h4>
-    <ul>
-      <li v-for="(value, key) in ingredients">{{ value }} {{ key }}</li>
-    </ul>
-  </div>
+        <input type="checkbox" name="obtained-box" @click="toggleObtained()"><label for="obtained-box">Obtained
+          only</label>
+        <h4>Item Summary</h4>
+        <ul>
+          <li v-for="(value, key) in ingredients">{{ value }} {{ key }}</li>
+        </ul>
+      </div>
     </div>
     <div id="set-tiles-wrapper">
       <div id="cluster" v-for="(armor, index) in armorObj" :key="index">
-        <itemTile v-if="armor.head" gearSlot="head" :title=armor.head.name :item=armor.head @recalculate="calcAgain"></itemTile>
-        <itemTile v-if="armor.body" gearSlot="body" :title=armor.body.name :item=armor.body @recalculate="calcAgain"></itemTile>
-        <itemTile v-if="armor.legs" gearSlot="legs" :title=armor.legs.name :item=armor.legs @recalculate="calcAgain"></itemTile>
+        <itemTile v-if="armor.head" gearSlot="head" :title=armor.head.name :item=armor.head @recalculate="calcAgain">
+        </itemTile>
+        <itemTile v-if="armor.body" gearSlot="body" :title=armor.body.name :item=armor.body @recalculate="calcAgain">
+        </itemTile>
+        <itemTile v-if="armor.legs" gearSlot="legs" :title=armor.legs.name :item=armor.legs @recalculate="calcAgain">
+        </itemTile>
       </div>
     </div>
   </div>
@@ -228,6 +232,7 @@ const calcAgain = () => {
 }
 
 #recap-panel h4 {
+  margin-top: 25px;
   text-align: center;
 }
 
