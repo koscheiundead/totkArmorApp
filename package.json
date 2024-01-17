@@ -1,18 +1,21 @@
 {
   "name": "totk-armor",
+  "description": "A desktop application to track and manage armor inventory in The Legend of Zelda: Tears of the Kingdom",
   "productName": "TotK Armor Compilation",
   "author": "troy armstrong",
   "private": true,
-  "version": "0.1.0",
+  "version": "0.2.0",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite build && vite",
     "build": "vue-tsc && vite build && electron-builder",
     "preview": "vite preview"
   },
   "dependencies": {
     "@google-cloud/local-auth": "^3.0.0",
+    "electron-store": "^8.1.0",
     "googleapis": "^129.0.0",
     "papaparse": "^5.4.1",
+    "pinia": "^2.1.7",
     "vue": "^3.3.4"
   },
   "devDependencies": {

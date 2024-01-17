@@ -3,17 +3,18 @@
  */
 {
   $schema: "https://raw.githubusercontent.com/electron-userland/electron-builder/master/packages/app-builder-lib/scheme.json",
-  appId: "CompileCredits",
+  appId: "TotKArmor",
   asar: true,
-  productName: "CompileCredits",
+  productName: "TotkArmor",
   directories: {
     output: "release/${version}",
   },
-  files: ["dist", "dist-electron"],
+  files: ["dist", "dist-electron", "build"],
+  fileAssociations: { icon: "icon", ext: "icns" },
   mac: {
     target: {
       target: "default",
-      arch: ["x64", "arm64", "universal"],
+      arch: ["x64", "arm64", "universal"]
     },
     artifactName: "${productName}-Mac-${version}-Installer.${ext}",
   },

@@ -1,5 +1,9 @@
-import { createApp } from 'vue'
-import './style.css'
-import App from './App.vue'
+import { createApp } from "vue";
+import "./style.css";
+import App from "./App.vue";
+import armor from "../data/armor.json";
+const app = createApp(App);
 
-createApp(App).mount('#app');
+app.provide("armoritems", armor);
+
+app.mount("#app");

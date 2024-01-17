@@ -1,0 +1,3220 @@
+{
+  "hylian_set": {
+    "head": {
+      "name": "hylian hood",
+      "defense": 3,
+      "obtained": false,
+      "location": "Lookout Landing",
+      "description": "A hood woven using traditional Hyrulean methods. It's made from a sturdy material to protect travelers from the harsh sun and weather.",
+      "level": 0,
+      "level1": { "Rupees": 10, "Bokoblin horn": 5, "defense": 5 },
+      "level2": {
+        "Rupees": 50,
+        "Blue Bokoblin horn": 5,
+        "Bokoblin fang": 3,
+        "defense": 8
+      },
+      "level3": {
+        "Rupees": 200,
+        "Amber": 20,
+        "Bokoblin guts": 3,
+        "Black Bokoblin horn": 5,
+        "defense": 12
+      },
+      "level4": {
+        "Rupees": 500,
+        "Bokoblin guts": 5,
+        "Amber": 30,
+        "Silver Bokoblin horn": 5,
+        "defense": 20
+      }
+    },
+    "body": {
+      "name": "hylian tunic",
+      "defense": 3,
+      "obtained": false,
+      "location": "Lookout Landing",
+      "description": "A common garb that achieved widespread popularity in Hyrule, particularly among travelers. Its light-yet-sturdy fabric doesn't limit movement.",
+      "level": 0,
+      "level1": { "Rupees": 10, "Bokoblin horn": 5, "defense": 5 },
+      "level2": {
+        "Rupees": 50,
+        "Blue Bokoblin horn": 5,
+        "Bokoblin fang": 3,
+        "defense": 8
+      },
+      "level3": {
+        "Rupees": 200,
+        "Amber": 20,
+        "Bokoblin guts": 3,
+        "Black Bokoblin horn": 5,
+        "defense": 12
+      },
+      "level4": {
+        "Rupees": 500,
+        "Bokoblin guts": 5,
+        "Amber": 30,
+        "Silver Bokoblin horn": 5,
+        "defense": 20
+      }
+    },
+    "legs": {
+      "name": "hylian trousers",
+      "defense": 3,
+      "obtained": false,
+      "location": "Lookout Landing",
+      "description": "Traditional dress trousers of Hyrule. The plush fabric makes these trousers quite comfortable, and their high durability makes them ideal for travelers.",
+      "level": 0,
+      "level1": { "Rupees": 10, "Bokoblin horn": 5, "defense": 5 },
+      "level2": {
+        "Rupees": 50,
+        "Blue Bokoblin horn": 5,
+        "Bokoblin fang": 3,
+        "defense": 8
+      },
+      "level3": {
+        "Rupees": 200,
+        "Amber": 20,
+        "Bokoblin guts": 3,
+        "Black Bokoblin horn": 5,
+        "defense": 12
+      },
+      "level4": {
+        "Rupees": 500,
+        "Bokoblin guts": 5,
+        "Amber": 30,
+        "Silver Bokoblin horn": 5,
+        "defense": 20
+      }
+    }
+  },
+  "set_of_the_wild": {
+    "head": {
+      "name": "cap of the wild",
+      "defense": 4,
+      "obtained": false,
+      "location": "-3956, 3713, -0858",
+      "description": "According to legend, this cap was crafted for a hero who traves the wild lands. Wearing it just feels so right.",
+      "level": 0,
+      "level1": { "Rupees": 10, "defense": 5, "Acorn": 10, "Farosh scale": 2 },
+      "level2": {
+        "Rupees": 50,
+        "defense": 12,
+        "Courser Bee honey": 5,
+        "Farosh Claw": 2
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 18,
+        "Energetic rhino beetle": 3,
+        "Shard of Farosh fang": 2,
+        "Shard of Farosh spike": 5
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 28,
+        "Star fragment": 3,
+        "Farosh horn": 2,
+        "Shard of Farosh spike": 10
+      }
+    },
+    "body": {
+      "name": "tunic of the wild",
+      "defense": 3,
+      "obtained": false,
+      "location": "-4879, -3720, -0458",
+      "description": "This armor was apparently crafted for a hero who travels the wilds. Strangely enough, it's just your size.",
+      "level": 0,
+      "level1": { "Rupees": 10, "defense": 5 },
+      "level2": {
+        "Rupees": 50,
+        "defense": 12,
+        "Courser Bee honey": 5,
+        "Farosh Claw": 2
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 18,
+        "Energetic rhino beetle": 3,
+        "Shard of Farosh fang": 2,
+        "Shard of Farosh spike": 5
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Star fragment": 3,
+        "Farosh horn": 2,
+        "Shard of Farosh spike": 10
+      }
+    },
+    "legs": {
+      "name": "trousers of the wild",
+      "defense": 3,
+      "obtained": false,
+      "location": "1674, 3723, -0561",
+      "description": "Legends say these pants were tailored for a hero who travels the wilderness. Strangely enough, they’re the most comfortable pair of pants you’ve ever worn.",
+      "level": 0,
+      "level1": { "Rupees": 10, "defense": 5 },
+      "level2": {
+        "Rupees": 50,
+        "defense": 12,
+        "Courser Bee honey": 5,
+        "Farosh Claw": 2
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 18,
+        "Energetic rhino beetle": 3,
+        "Shard of Farosh fang": 2,
+        "Shard of Farosh spike": 5
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Star fragment": 3,
+        "Farosh horn": 2,
+        "Shard of Farosh spike": 10
+      }
+    }
+  },
+  "zora_set": {
+    "head": {
+      "name": "zora helm",
+      "defense": 3,
+      "obtained": false,
+      "location": "4094, 0529, 0586",
+      "description": "Zora headgear made from dragon scales. Increases swimming speed and allows you to spin to attack while swimming.",
+      "level": 0,
+      "level1": { "Rupees": 10, "defense": 5, "Lizalfos horn": 3 },
+      "level2": {
+        "Rupees": 50,
+        "defense": 8,
+        "Hyrule bass": 5,
+        "Lizalfos talon": 5
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 12,
+        "Hearty bass": 3,
+        "Lizalfos tail": 3,
+        "Blue Lizalfos horn": 5
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Black Lizalfos horn": 5,
+        "Blue Lizalfos tail": 5,
+        "Opal": 20
+      }
+    },
+    "body": {
+      "name": "zora armor",
+      "defense": 3,
+      "obtained": false,
+      "location": "Armor crafted by a past Zora princess for her future husband. Equip it to swim up waterfalls.",
+      "description": null,
+      "level": 0,
+      "level1": { "Rupees": 10, "defense": 5, "Lizalfos horn": 3 },
+      "level2": {
+        "Rupees": 50,
+        "defense": 8,
+        "Hyrule bass": 5,
+        "Lizalfos talon": 5
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 12,
+        "Hearty bass": 3,
+        "Lizalfos tail": 3,
+        "Blue Lizalfos horn": 5
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Black Lizalfos horn": 5,
+        "Blue Lizalfos tail": 5,
+        "Opal": 20
+      }
+    },
+    "legs": {
+      "name": "zora greaves",
+      "defense": 3,
+      "obtained": false,
+      "location": "3612, 0123, 0003",
+      "description": "These greaves have been passed down among the Zora for generations. Equip them to swim faster.",
+      "level": 0,
+      "level1": { "Rupees": 10, "defense": 5, "Lizalfos horn": 3 },
+      "level2": {
+        "Rupees": 50,
+        "defense": 8,
+        "Hyrule bass": 5,
+        "Lizalfos talon": 5
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 12,
+        "Hearty bass": 3,
+        "Lizalfos tail": 3,
+        "Blue Lizalfos horn": 5
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Black Lizalfos horn": 5,
+        "Blue Lizalfos tail": 5,
+        "Opal": 20
+      }
+    }
+  },
+  "desert_voe_set": {
+    "head": {
+      "name": "desert voe headband",
+      "defense": 3,
+      "obtained": false,
+      "location": "Gerudo Secret Club",
+      "description": "Gerudo armor for males. Contains sapphire, which harnesses the power of ice to make the heat more bearable.",
+      "level": 0,
+      "level1": { "Rupees": 10, "defense": 5, "White Chuchu jelly": 3 },
+      "level2": {
+        "Rupees": 50,
+        "defense": 8,
+        "White Chuchu jelly": 5,
+        "Cool Safflina": 3
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 12,
+        "chillshroom": 5,
+        "Ice Keese wing": 5,
+        "Icebreath Lizalfos tail": 3
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Icebreath Lizalfos horn": 5,
+        "Icebreath Lizalfos tail": 10,
+        "Sapphire": 5
+      }
+    },
+    "body": {
+      "name": "desert voe spaulder",
+      "defense": 3,
+      "obtained": false,
+      "location": "Gerudo Secret Club",
+      "description": "Armor for males sold rarely by Gerudo retailers. It contains sapphire, which harnesses the power of ice to make hot climates more tolerable.",
+      "level": 0,
+      "level1": { "Rupees": 10, "defense": 5, "White Chuchu jelly": 3 },
+      "level2": {
+        "Rupees": 50,
+        "defense": 8,
+        "White Chuchu jelly": 5,
+        "Cool Safflina": 3
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 12,
+        "chillshroom": 5,
+        "Ice Keese wing": 5,
+        "Icebreath Lizalfos tail": 3
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Icebreath Lizalfos horn": 5,
+        "Icebreath Lizalfos tail": 10,
+        "Sapphire": 5
+      }
+    },
+    "legs": {
+      "name": "desert voe trousers",
+      "defense": 3,
+      "obtained": false,
+      "location": "Gerudo Secret Club",
+      "description": "Gerudo-made trousers for males sold rarely by Gerudo retailers. Sapphire is used in their creation, which harnesses the power of ice to make the heat more tolerable.",
+      "level": 0,
+      "level1": { "Rupees": 10, "defense": 5, "White Chuchu jelly": 3 },
+      "level2": {
+        "Rupees": 50,
+        "defense": 8,
+        "White Chuchu jelly": 5,
+        "Cool Safflina": 3
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 12,
+        "chillshroom": 5,
+        "Ice Keese wing": 5,
+        "Icebreath Lizalfos tail": 3
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Icebreath Lizalfos horn": 5,
+        "Icebreath Lizalfos tail": 10,
+        "Sapphire": 5
+      }
+    }
+  },
+  "snowquill_set": {
+    "head": {
+      "name": "snowquill headdress",
+      "defense": 3,
+      "obtained": false,
+      "location": "Rito Village",
+      "description": "A Rito accessory made from snow-bird feathers. Adorned with a ruby, a gem that harnesses the power of fire.",
+      "level": 0,
+      "level1": { "Rupees": 10, "defense": 5, "Red Chuchu jelly": 3 },
+      "level2": {
+        "Rupees": 50,
+        "defense": 8,
+        "Red Chuchu jelly": 5,
+        "Warm Safflina": 3
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 12,
+        "Sunshroom": 5,
+        "Fire Keese wing": 5,
+        "Firebreath Lizalfos tail": 3
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Ruby": 5,
+        "Firebreath Lizalfos horn": 5,
+        "Firebreath Lizalfos tail": 10
+      }
+    },
+    "body": {
+      "name": "snowquill tunic",
+      "defense": 3,
+      "obtained": false,
+      "location": "Rito Village",
+      "description": "Made by Rito artisans, this tunic stacks molted Rito feathers in each layer to help retain body heat.",
+      "level": 0,
+      "level1": { "Rupees": 10, "defense": 5, "Red Chuchu jelly": 3 },
+      "level2": {
+        "Rupees": 50,
+        "defense": 8,
+        "Red Chuchu jelly": 5,
+        "Warm Safflina": 3
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 12,
+        "Sunshroom": 5,
+        "Fire Keese wing": 5,
+        "Firebreath Lizalfos tail": 3
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Ruby": 5,
+        "Firebreath Lizalfos horn": 5,
+        "Firebreath Lizalfos tail": 10
+      }
+    },
+    "legs": {
+      "name": "snowquill trousers",
+      "defense": 3,
+      "obtained": false,
+      "location": "Rito Village",
+      "description": "The Rito feathers that line these trousers make them excellent at retaining body heat.",
+      "level": 0,
+      "level1": { "Rupees": 10, "defense": 5, "Red Chuchu jelly": 3 },
+      "level2": {
+        "Rupees": 50,
+        "defense": 8,
+        "Red Chuchu jelly": 5,
+        "Warm Safflina": 3
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 12,
+        "Sunshroom": 5,
+        "Fire Keese wing": 5,
+        "Firebreath Lizalfos tail": 3
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Ruby": 5,
+        "Firebreath Lizalfos horn": 5,
+        "Firebreath Lizalfos tail": 10
+      }
+    }
+  },
+  "flamebreaker_set": {
+    "head": {
+      "name": "flamebreaker helm",
+      "defense": 3,
+      "obtained": false,
+      "location": "Goron City",
+      "description": "Stone headgear made for tourists by Goron crafters. Not only is is flame resistant but it also covers your entire head.",
+      "level": 0,
+      "level1": { "Rupees": 10, "defense": 5, "Moblin horn": 3 },
+      "level2": {
+        "Rupees": 50,
+        "defense": 8,
+        "Moblin fang": 5,
+        "Fireproof Lizard": 5
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 12,
+        "Blue Moblin horn": 5,
+        "Flint": 15,
+        "Smotherwing Butterfly": 3
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Firebreath Lizalfos horn": 5,
+        "Firebreath Lizalfos tail": 10,
+        "Ruby": 5
+      }
+    },
+    "legs": {
+      "name": "flamebreaker boots",
+      "defense": 3,
+      "obtained": false,
+      "location": "Goron City",
+      "description": "Goron artisans used flame-resistant rocks to craft these fireproof boots for curious Hylians visiting Goron City.",
+      "level": 0,
+      "level1": { "Rupees": 10, "defense": 5, "Moblin horn": 3 },
+      "level2": {
+        "Rupees": 50,
+        "defense": 8,
+        "Moblin fang": 5,
+        "Fireproof Lizard": 5
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 12,
+        "Blue Moblin horn": 5,
+        "Flint": 15,
+        "Smotherwing Butterfly": 3
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Firebreath Lizalfos horn": 5,
+        "Firebreath Lizalfos tail": 10,
+        "Ruby": 5
+      }
+    },
+    "body": {
+      "name": "flamebreaker armor",
+      "defense": 3,
+      "obtained": false,
+      "location": "Goron City",
+      "description": "Fire-resistant armor crafted by Gorons for Hylians curious enough to visit Goron City.",
+      "level": 0,
+      "level1": { "Rupees": 10, "defense": 5, "Moblin horn": 3 },
+      "level2": {
+        "Rupees": 50,
+        "defense": 8,
+        "Moblin fang": 5,
+        "Fireproof Lizard": 5
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 12,
+        "Blue Moblin horn": 5,
+        "Flint": 15,
+        "Smotherwing Butterfly": 3
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Firebreath Lizalfos horn": 5,
+        "Firebreath Lizalfos tail": 10,
+        "Ruby": 5
+      }
+    }
+  },
+  "stealth_set": {
+    "head": {
+      "name": "stealth mask",
+      "defense": 2,
+      "obtained": false,
+      "location": "Kakariko Village",
+      "description": "A Sheikah-made mask that suppresses the noisy rustling of clothes. Perfect for sneaking about.",
+      "level": 0,
+      "level1": { "Rupees": 10, "defense": 4, "Blue Nightshade": 3 },
+      "level2": {
+        "Rupees": 50,
+        "defense": 6,
+        "Sunset Firefly": 5,
+        "Blue Nightshade": 5
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 9,
+        "Silent Shroom": 8,
+        "Sneaky River Snail": 5
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 16,
+        "Sundelion": 10,
+        "Stealthfin Trout": 10,
+        "Silent Princess": 5
+      }
+    },
+    "legs": {
+      "name": "stealth tights",
+      "defense": 2,
+      "obtained": false,
+      "location": "Kakariko Village",
+      "description": "Armor designed for stealth, passed down through the Sheikah tribe. Its special fabric suppresses sound.",
+      "level": 0,
+      "level1": { "Rupees": 10, "defense": 4, "Blue Nightshade": 3 },
+      "level2": {
+        "Rupees": 50,
+        "defense": 6,
+        "Sunset Firefly": 5,
+        "Blue Nightshade": 5
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 9,
+        "Silent Shroom": 8,
+        "Sneaky River Snail": 5
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 16,
+        "Sundelion": 10,
+        "Stealthfin Trout": 10,
+        "Silent Princess": 5
+      }
+    },
+    "body": {
+      "name": "stealth chest guard",
+      "defense": 2,
+      "obtained": false,
+      "location": "Kakariko Village",
+      "description": "Tights crafted by the Sheikah, laced with ancient technology that suppresses the noisy rustling of clothes.",
+      "level": 0,
+      "level1": { "Rupees": 10, "defense": 4, "Blue Nightshade": 3 },
+      "level2": {
+        "Rupees": 50,
+        "defense": 6,
+        "Sunset Firefly": 5,
+        "Blue Nightshade": 5
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 9,
+        "Silent Shroom": 8,
+        "Sneaky River Snail": 5
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 16,
+        "Sundelion": 10,
+        "Stealthfin Trout": 10,
+        "Silent Princess": 5
+      }
+    }
+  },
+  "climbing_set": {
+    "head": {
+      "name": "climber's bandana",
+      "defense": 3,
+      "obtained": false,
+      "location": "Ploymus Mountain Cave",
+      "description": "It may look like a regular bandana, but it's actually infused with ancient technology that enhances core strength to improve your climbing ability.",
+      "level": 0,
+      "level1": { "Rupees": 10, "defense": 5, "Keese wing": 3, "Rushroom": 3 },
+      "level2": {
+        "Rupees": 50,
+        "defense": 8,
+        "Electric Keese wing": 5,
+        "Hightail lizard": 5
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 12,
+        "Hot-footed Frog": 10,
+        "Ice Keese wing": 8
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Swift Violet": 20,
+        "Fire Keese wing": 10
+      }
+    },
+    "legs": {
+      "name": "climbing boots",
+      "defense": 3,
+      "obtained": false,
+      "location": "North Hyrule Plains Cave",
+      "description": "The ancient technology in this gear will make you a better climber. The special no-slip gloves helps you use your energy more efficiently to facilitate nimble climbing.",
+      "level": 0,
+      "level1": { "Rupees": 10, "defense": 5, "Keese wing": 3, "Rushroom": 3 },
+      "level2": {
+        "Rupees": 50,
+        "defense": 8,
+        "Electric Keese wing": 5,
+        "Hightail lizard": 5
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 12,
+        "Hot-footed Frog": 10,
+        "Ice Keese wing": 8
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Swift Violet": 20,
+        "Fire Keese wing": 10
+      }
+    },
+    "body": {
+      "name": "climbing gear",
+      "defense": 3,
+      "obtained": false,
+      "location": "Upland Zorana Byroad",
+      "description": "These rock-climbing boots have special no-slip toes that help you cling to walls. This ancient technology facilitates more nimble climbing.",
+      "level": 0,
+      "level1": { "Rupees": 10, "defense": 5, "Keese wing": 3, "Rushroom": 3 },
+      "level2": {
+        "Rupees": 50,
+        "defense": 8,
+        "Electric Keese wing": 5,
+        "Hightail lizard": 5
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 12,
+        "Hot-footed Frog": 10,
+        "Ice Keese wing": 8
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Swift Violet": 20,
+        "Fire Keese wing": 10
+      }
+    }
+  },
+  "radiant_set": {
+    "head": {
+      "name": "radiant mask",
+      "defense": 3,
+      "obtained": false,
+      "location": "Kakariko Village",
+      "description": "A mask made from crushed luminous stones that gives off a radiant glow in the dark.",
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 5,
+        "Luminous stone": 10,
+        "Bokoblin guts": 1
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 8,
+        "Luminous stone": 15,
+        "Moblin guts": 2
+      },
+      "level3": {
+        "Rupees": 200,
+        "Luminous stone": 20,
+        "Horriblin guts": 3,
+        "Gibdo bone": 10
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Luminous stone": 30,
+        "Lynel guts": 3,
+        "Molduga jaw": 3
+      }
+    },
+    "legs": {
+      "name": "radiant tights",
+      "defense": 3,
+      "obtained": false,
+      "location": "Kakariko Village",
+      "description": "Paint made from crushed luminous stones causes these tights to glow in the dark.",
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 5,
+        "Luminous stone": 10,
+        "Bokoblin guts": 1
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 8,
+        "Luminous stone": 15,
+        "Moblin guts": 2
+      },
+      "level3": {
+        "Rupees": 200,
+        "Luminous stone": 20,
+        "Horriblin guts": 3,
+        "Gibdo bone": 10
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Luminous stone": 30,
+        "Lynel guts": 3,
+        "Molduga jaw": 3
+      }
+    },
+    "body": {
+      "name": "radiant shirt",
+      "defense": 3,
+      "obtained": false,
+      "location": "Kakariko Village",
+      "description": "A shirt that glows in the dark due to dye made from luminous stones.",
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 5,
+        "Luminous stone": 10,
+        "Bokoblin guts": 1
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 8,
+        "Luminous stone": 15,
+        "Moblin guts": 2
+      },
+      "level3": {
+        "Rupees": 200,
+        "Luminous stone": 20,
+        "Horriblin guts": 3,
+        "Gibdo bone": 10
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Luminous stone": 30,
+        "Lynel guts": 3,
+        "Molduga jaw": 3
+      }
+    }
+  },
+  "soldiers_set": {
+    "head": {
+      "name": "soldier's helm",
+      "defense": 4,
+      "obtained": false,
+      "location": "Royal Hidden Passage",
+      "description": "Headgear made from sturdy metals for frontline soldiers. Praised for their defensive capabilities, the only helms that remain are those that survived the Calamity.",
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 7,
+        "Chuchu jelly": 5,
+        "Bokoblin guts": 3
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 12,
+        "Keese eyeball": 5,
+        "Moblin guts": 3
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 18,
+        "Flint": 30,
+        "Lizalfos tail": 3,
+        "Hinox guts": 3
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 28,
+        "Lynel hoof": 5,
+        "Lynel guts": 5,
+        "Amber": 30
+      }
+    },
+    "legs": {
+      "name": "soldier's greaves",
+      "defense": 4,
+      "obtained": false,
+      "location": "Royal Hidden Passage",
+      "description": "Hyruliean guards favored these greaves. They owe their distinctly high defense to the metal plates they're made from, but the added weight takes some getting used to.",
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 7,
+        "Chuchu jelly": 5,
+        "Bokoblin guts": 3
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 12,
+        "Keese eyeball": 5,
+        "Moblin guts": 3
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 18,
+        "Flint": 30,
+        "Lizalfos tail": 3,
+        "Hinox guts": 3
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 28,
+        "Lynel hoof": 5,
+        "Lynel guts": 5,
+        "Amber": 30
+      }
+    },
+    "body": {
+      "name": "soldier's armor",
+      "defense": 4,
+      "obtained": false,
+      "location": "Royal Hidden Passage",
+      "description": "Hyruliean guards praised this armor for its superior defense. Made from sturdy plates of metal, the high level of craftsmanship that went into it is obvious with just a glance.",
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 7,
+        "Chuchu jelly": 5,
+        "Bokoblin guts": 3
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 12,
+        "Keese eyeball": 5,
+        "Moblin guts": 3
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 18,
+        "Flint": 30,
+        "Lizalfos tail": 3,
+        "Hinox guts": 3
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 28,
+        "Lynel hoof": 5,
+        "Lynel guts": 5,
+        "Amber": 30
+      }
+    }
+  },
+  "bokoblin_mask": {
+    "head": {
+      "name": "bokoblin mask",
+      "defense": 3,
+      "obtained": false,
+      "location": "Kilton's Monster Shop",
+      "description": "Kilton's handmade Bokoblin headgear. It's almost charming in a cute, monstrous kind of way... Equip it to blend in with Bokoblins.",
+      "level": 0
+    }
+  },
+  "diamond_circlet": {
+    "head": {
+      "name": "diamond circlet",
+      "defense": 4,
+      "obtained": false,
+      "location": "Gerudo Jewelry Shop",
+      "description": "A Gerudo headpiece set with a diamond, which increases attack power.",
+      "level": 0,
+      "level1": { "Rupees": 10, "defense": 7, "Diamond": 2, "Flint": 3 },
+      "level2": { "Rupees": 50, "defense": 12, "Diamond": 3, "Flint": 5 },
+      "level3": {
+        "Rupees": 200,
+        "defense": 18,
+        "Diamond": 5,
+        "Star fragment": 1
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 28,
+        "Diamond": 8,
+        "Star fragment": 2
+      }
+    }
+  },
+  "ruby_circlet": {
+    "head": {
+      "name": "ruby circlet",
+      "defense": 3,
+      "obtained": false,
+      "location": "Gerudo Jewelry Shop",
+      "description": "A headpiece made by Gerudo craft workers. It's set with a ruby, a gem that harnesses the power of fire to make cold climates more bearable.",
+      "level": 0,
+      "level1": { "Rupees": 10, "defense": 5, "Ruby": 2, "Flint": 3 },
+      "level2": { "Rupees": 50, "defense": 8, "Ruby": 4, "Flint": 5 },
+      "level3": { "Rupees": 200, "defense": 12, "Ruby": 6, "Star fragment": 1 },
+      "level4": { "Rupees": 500, "defense": 20, "Ruby": 10, "Star fragment": 2 }
+    }
+  },
+  "sapphire_circlet": {
+    "head": {
+      "name": "sapphire circlet",
+      "defense": 3,
+      "obtained": false,
+      "location": "Gerudo Jewelry Shop",
+      "description": "An intricate headpiece crafted with Gerudo goldsmith techniques. It's set with a sapphire, a gem that harnesses the power of ice to make hot climates more tolerable.",
+      "level": 0,
+      "level1": { "Rupees": 10, "defense": 5, "Sapphire": 2, "Flint": 3 },
+      "level2": { "Rupees": 50, "defense": 8, "Sapphire": 4, "Flint": 5 },
+      "level3": {
+        "Rupees": 200,
+        "defense": 12,
+        "Sapphire": 6,
+        "Star fragment": 1
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Sapphire": 10,
+        "Star fragment": 2
+      }
+    }
+  },
+  "topaz_earrings": {
+    "head": {
+      "name": "topaz earrings",
+      "defense": 3,
+      "obtained": false,
+      "location": "Gerudo Jewelry Shop",
+      "description": "Earrings made by Gerudo craft workers. They're made with topaz, a gem that harnesses the power of lighting to increase electricity resistance.",
+      "level": 0,
+      "level1": { "Rupees": 10, "defense": 5, "Topaz": 2, "Flint": 3 },
+      "level2": { "Rupees": 50, "Topaz": 4, "Flint": 5 },
+      "level3": {
+        "Rupees": 200,
+        "defense": 12,
+        "Topaz": 6,
+        "Star fragment": 1
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Topaz": 10,
+        "Star fragment": 2
+      }
+    }
+  },
+  "opal_earrings": {
+    "head": {
+      "name": "opal earrings",
+      "defense": 3,
+      "obtained": false,
+      "location": "Gerudo Jewelry Shop",
+      "description": "Earrings sold at Gerudo jewelry shops. They contain opal, a gem that harnesses the power of water to increase your swimming speed.",
+      "level": 0,
+      "level1": { "Rupees": 10, "defense": 5, "Opal": 6, "Flint": 5 },
+      "level2": { "Rupees": 50, "defense": 8, "Opal": 12, "Flint": 10 },
+      "level3": { "Rupees": 200, "defense": 12, "Opal": 18, "Flint": 15 },
+      "level4": { "Rupees": 500, "defense": 20, "Opal": 30, "Flint": 25 }
+    }
+  },
+  "amber_earrings": {
+    "head": {
+      "name": "amber earrings",
+      "defense": 4,
+      "obtained": false,
+      "location": "Gerudo Jewelry Shop",
+      "description": "One of the items sold by the Gerudo jeweler. These earrings are made with amber, a gem that harnesses the power of the land to increase defense when equipped.",
+      "level": 0,
+      "level1": { "Rupees": 10, "defense": 7, "Amber": 10, "Flint": 5 },
+      "level2": { "Rupees": 50, "defense": 12, "Amber": 20, "Flint": 10 },
+      "level3": { "Rupees": 200, "defense": 18, "Amber": 35, "Flint": 15 },
+      "level4": { "Rupees": 500, "defense": 28, "Amber": 60, "Flint": 25 }
+    }
+  },
+  "moblin_mask": {
+    "head": {
+      "name": "moblin mask",
+      "defense": 3,
+      "obtained": false,
+      "location": "Kilton's Monster Shop",
+      "description": "Kilton's handmade Moblin headgear. It's designed to replicate the distinct, long, Moblin nose and hanging tongue. Equip it to blend in with Moblins.",
+      "level": 0
+    }
+  },
+  "rubber_set": {
+    "head": {
+      "name": "rubber helm",
+      "defense": 3,
+      "obtained": false,
+      "location": "Sarjon Woods Cave",
+      "description": "An electricity-resistant helmet made from an ancient material called \"rubber.\"",
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 5,
+        "Yellow Chuchu jelly": 3,
+        "Electric Lizalfos horn": 1
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 8,
+        "Yellow Chuchu jelly": 8,
+        "Voltfruit": 5
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 12,
+        "Zapshroom": 5,
+        "Electric Lizalfos tail": 5,
+        "Electric Safflina": 8
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Topaz": 5,
+        "Electric Lizalfos horn": 5,
+        "Electric Lizalfos tail": 8
+      }
+    },
+    "legs": {
+      "name": "rubber tights",
+      "defense": 3,
+      "obtained": false,
+      "location": "Horon Lagoon Cave",
+      "description": "These invaluable tights are resistant to electricity. They're made with an ancient technology called \"rubber.\"",
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 5,
+        "Yellow Chuchu jelly": 3,
+        "Electric Lizalfos horn": 1
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 8,
+        "Yellow Chuchu jelly": 8,
+        "Voltfruit": 5
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 12,
+        "Zapshroom": 5,
+        "Electric Lizalfos tail": 5,
+        "Electric Safflina": 8
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Topaz": 5,
+        "Electric Lizalfos horn": 5,
+        "Electric Lizalfos tail": 8
+      }
+    },
+    "body": {
+      "name": "rubber armor",
+      "defense": 3,
+      "obtained": false,
+      "location": "Whistling Hill Cave",
+      "description": "This armor owes its electricity resistance to an ancient material called \"rubber,\" which is nearly impossible to find.",
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 5,
+        "Yellow Chuchu jelly": 3,
+        "Electric Lizalfos horn": 1
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 8,
+        "Yellow Chuchu jelly": 8,
+        "Voltfruit": 5
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 12,
+        "Zapshroom": 5,
+        "Electric Lizalfos tail": 5,
+        "Electric Safflina": 8
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Topaz": 5,
+        "Electric Lizalfos horn": 5,
+        "Electric Lizalfos tail": 8
+      }
+    }
+  },
+  "barbarian_set": {
+    "head": {
+      "name": "barbarian helm",
+      "defense": 3,
+      "obtained": false,
+      "location": "Robred Dropoff Cave",
+      "description": "A helmet once worn by the warriors of an ancient warlike tribe from the Faron region.",
+      "level": 0,
+      "level1": { "Rupees": 10, "Mighty Thistle": 3 },
+      "level2": {
+        "Rupees": 50,
+        "defense": 8,
+        "Razorshroom": 5,
+        "Lynel saber horn": 2,
+        "Lynel mace horn": 2
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 12,
+        "Blue-Maned Lynel saber horn": 3,
+        "Blue-Maned Lynel mace horn": 3,
+        "Razorclaw crab": 3
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "White-Maned Lynel Saber Horn": 3,
+        "White-Maned Lynel Mace Horn": 3,
+        "Bladed rhino beetle": 3
+      }
+    },
+    "legs": {
+      "name": "barbarian leg wraps",
+      "defense": 3,
+      "obtained": false,
+      "location": "Walnot Mountain Cave",
+      "description": "Leg wraps once favored by a warlike tribe. The traditional design bolsters your fighting spirit to raise your strength.",
+      "level": 0,
+      "level1": { "Rupees": 10, "Mighty Thistle": 3 },
+      "level2": {
+        "Rupees": 50,
+        "defense": 8,
+        "Razorshroom": 5,
+        "Lynel saber horn": 2,
+        "Lynel mace horn": 2
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 12,
+        "Blue-Maned Lynel saber horn": 3,
+        "Blue-Maned Lynel mace horn": 3,
+        "Razorclaw crab": 3
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "White-Maned Lynel Saber Horn": 3,
+        "White-Maned Lynel Mace Horn": 3,
+        "Bladed rhino beetle": 3
+      }
+    },
+    "body": {
+      "name": "barbarian armor",
+      "defense": 3,
+      "obtained": false,
+      "location": "Crenel Hills Cave",
+      "description": "Armor once favored by an ancient warlike tribe from the Faron region. Equipping it boosts your attack power.",
+      "level": 0,
+      "level1": { "Rupees": 10, "Mighty Thistle": 3 },
+      "level2": {
+        "Rupees": 50,
+        "defense": 8,
+        "Razorshroom": 5,
+        "Lynel saber horn": 2,
+        "Lynel mace horn": 2
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 12,
+        "Blue-Maned Lynel saber horn": 3,
+        "Blue-Maned Lynel mace horn": 3,
+        "Razorclaw crab": 3
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "White-Maned Lynel Saber Horn": 3,
+        "White-Maned Lynel Mace Horn": 3,
+        "Bladed rhino beetle": 3
+      }
+    }
+  },
+  "sand_boots": {
+    "legs": {
+      "name": "sand boots",
+      "defense": 3,
+      "obtained": false,
+      "location": "Gerudo Secret Club",
+      "description": "Gerudo artisans modified these boots for life in the desert. The special soles distribute weight evenly so you can maintain your normal movement speed on sand.",
+      "level": 0,
+      "level1": { "Rupees": 10, "defense": 5, "Hightail lizard": 3 },
+      "level2": {
+        "Rupees": 50,
+        "defense": 8,
+        "Gibdo bone": 20,
+        "Swift carrot": 5
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 12,
+        "Gibdo guts": 5,
+        "Rushroom": 10,
+        "Molduga fin": 5
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Molduga guts": 5,
+        "Swift Violet": 10,
+        "Hearty lizard": 5
+      }
+    }
+  },
+  "lizalfos_mask": {
+    "head": {
+      "name": "lizalfos mask",
+      "defense": 3,
+      "obtained": false,
+      "location": "Kilton's Monster Shop",
+      "description": "Kilton's handmade Lizalfos headgear. It's designed to replicate even those goggling eyeballs of the Lizalfos. Equip it to blend in with Lizalfos.",
+      "level": 0
+    }
+  },
+  "lynel_mask": {
+    "head": {
+      "name": "lynel mask",
+      "defense": 3,
+      "obtained": false,
+      "location": "Kilton's Monster Shop",
+      "description": "Kilton's handmade Lynel headgear. It's so well crafted it can deceive a real Lynel. Equip it to blend in with Lynels, but don't linger long. Those beasts are smart.",
+      "level": 0
+    }
+  },
+  "glide_set": {
+    "head": {
+      "name": "glide mask",
+      "defense": 2,
+      "obtained": false,
+      "location": "Valor Island",
+      "description": "A mask with a wind-resistant design that allows for steadier gliding while the wearer plummets from the sky.",
+      "level": 0,
+      "level1": { "Rupees": 10, "defense": 4, "Keese wing": 3 },
+      "level2": {
+        "Rupees": 50,
+        "defense": 6,
+        "Aerocuda Wing": 5,
+        "Aerocuda eyeball": 6
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 9,
+        "Aerocuda Wing": 6,
+        "Aerocuda eyeball": 8
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 16,
+        "Aerocuda Wing": 10,
+        "Gibdo wing": 8,
+        "Gleeok wing": 12
+      }
+    },
+    "legs": {
+      "name": "glide tights",
+      "defense": 2,
+      "obtained": false,
+      "location": "Bravery Island",
+      "description": "The cloth sewn to these tights allows their wearer to glide more easily as they plummet from the sky.",
+      "level": 0,
+      "level1": { "Rupees": 10, "defense": 4, "Keese wing": 3 },
+      "level2": {
+        "Rupees": 50,
+        "defense": 6,
+        "Aerocuda Wing": 5,
+        "Aerocuda eyeball": 6
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 9,
+        "Aerocuda Wing": 6,
+        "Aerocuda eyeball": 8
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 16,
+        "Aerocuda Wing": 10,
+        "Gibdo wing": 8,
+        "Gleeok wing": 12
+      }
+    },
+    "body": {
+      "name": "glide shirt",
+      "defense": 2,
+      "obtained": false,
+      "location": "Courage Island",
+      "description": "The cloth sewn to this shirt helps it \"catch\" air, increasing the wearer's ability to glide while plummeting from the sky.",
+      "level": 0,
+      "level1": { "Rupees": 10, "defense": 4, "Keese wing": 3 },
+      "level2": {
+        "Rupees": 50,
+        "defense": 6,
+        "Aerocuda Wing": 5,
+        "Aerocuda eyeball": 6
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 9,
+        "Aerocuda Wing": 6,
+        "Aerocuda eyeball": 8
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 16,
+        "Aerocuda Wing": 10,
+        "Gibdo wing": 8,
+        "Gleeok wing": 12
+      }
+    }
+  },
+  "ancient_heros_set": {
+    "head": {
+      "name": "ancient hero's aspect",
+      "defense": 12,
+      "obtained": false,
+      "location": "0453, -0764, 1467",
+      "description": "This item is said to contain the spirit of a hero who once saved Hyrule. That hero's aura will envelop the wearer.",
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 21,
+        "Silver Bokoblin horn": 9,
+        "Hinox guts": 9,
+        "Zonaite": 15
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 36,
+        "Silver Moblin horn": 9,
+        "Frox guts": 9,
+        "Large Zonaite": 10
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 54,
+        "Silver Lizalfos horn": 9,
+        "Molduga guts": 9,
+        "Large Zonaite": 15
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 84,
+        "Silver Lynel saber horn": 9,
+        "Silver Lynel mace horn": 9,
+        "gleeok guts": 9
+      }
+    }
+  },
+  "archaic_set": {
+    "head": {
+      "name": "archaic tunic",
+      "defense": 1,
+      "obtained": false,
+      "location": "Great Sky Island",
+      "description": "Old-fashioned upper-body wear. It's got some holes, but the soft cloth feels good to the touch. It's hard to keep wrinkle-free. ",
+      "level": 0
+    },
+    "legs": {
+      "name": "archaic legwear",
+      "defense": 1,
+      "obtained": false,
+      "location": "Great Sky Island",
+      "description": "Simple, classic legwear. They're well-worn and showing their age, but they've still got a few good years left in them. It can be a bit cumbersome to have to tie the straps. ",
+      "level": 0
+    }
+  },
+  "archaic_warm_greaves": {
+    "legs": {
+      "name": "archaic warm greaves",
+      "defense": 2,
+      "obtained": false,
+      "location": "Great Sky Island",
+      "description": "Warm greaves believed to be from a very long time ago. Despite the old look, the heat-retaining material makes it pleasantly resistant to cold temperatures.",
+      "level": 0
+    }
+  },
+  "froggy_set": {
+    "head": {
+      "name": "froggy hood",
+      "defense": 3,
+      "obtained": false,
+      "location": "Lucky Clover Gazette",
+      "description": "A good hood for a rainy day. The perfectly weighted headband keeps the wearer focus and stabilized, making it easier to climb wet, slippery surfaces.",
+      "level": 0,
+      "level1": { "Rupees": 10, "defense": 5, "Sticky Lizard": 3 },
+      "level2": {
+        "Rupees": 50,
+        "defense": 8,
+        "Sticky Lizard": 5,
+        "Horriblin horn": 5
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 12,
+        "Blue Horriblin horn": 5,
+        "Sticky Frog": 5
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Black Horriblin horn": 5,
+        "Horriblin guts": 10,
+        "Opal": 10
+      }
+    },
+    "legs": {
+      "name": "froggy leggings",
+      "defense": 3,
+      "obtained": false,
+      "location": "Lucky Clover Gazette",
+      "description": "Good leggings for a rainy day. The feet are covered in small dimples and treated with an anti-slip substance, giving them great traction on wet, slippery surfaces.",
+      "level": 0,
+      "level1": { "Rupees": 10, "defense": 5, "Sticky Lizard": 3 },
+      "level2": {
+        "Rupees": 50,
+        "defense": 8,
+        "Sticky Lizard": 5,
+        "Horriblin horn": 5
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 12,
+        "Blue Horriblin horn": 5,
+        "Sticky Frog": 5
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Black Horriblin horn": 5,
+        "Horriblin guts": 10,
+        "Opal": 10
+      }
+    },
+    "body": {
+      "name": "froggy sleeve",
+      "defense": 3,
+      "obtained": false,
+      "location": "Lucky Clover Gazette",
+      "description": "A good sleeve for a rainy day. Small dimples on the fingers act as suction cups, giving good grip on wet, slippery surfaces.",
+      "level": 0,
+      "level1": { "Rupees": 10, "defense": 5, "Sticky Lizard": 3 },
+      "level2": {
+        "Rupees": 50,
+        "defense": 8,
+        "Sticky Lizard": 5,
+        "Horriblin horn": 5
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 12,
+        "Blue Horriblin horn": 5,
+        "Sticky Frog": 5
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Black Horriblin horn": 5,
+        "Horriblin guts": 10,
+        "Opal": 10
+      }
+    }
+  },
+  "miners_set": {
+    "head": {
+      "name": "miner's mask",
+      "defense": 3,
+      "obtained": false,
+      "location": "Abandoned Kara Kara Mine",
+      "description": "A mask used for working in darkness. The attached lamps are filled with bioluminescent material to light one's surroundings.",
+      "level": 0,
+      "level1": { "Rupees": 10, "defense": 5, "Brightbloom seed": 10 },
+      "level2": {
+        "Rupees": 50,
+        "defense": 8,
+        "Brightbloom seed": 20,
+        "Brightcap": 5
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 20,
+        "Giant Brightbloom seed": 15,
+        "Deep Firefly": 10,
+        "Glowing Cave Fish": 5
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Giant Brightbloom seed": 20,
+        "Large Zonaite": 10,
+        "Diamond": 3
+      }
+    },
+    "legs": {
+      "name": "miner's trousers",
+      "defense": 3,
+      "obtained": false,
+      "location": "Hylian Canyon Mine",
+      "description": "The bioluminescent lamps on these trousers shed light on where you step. They come in handy when walking in darkness.",
+      "level": 0,
+      "level1": { "Rupees": 10, "defense": 5, "Brightbloom seed": 10 },
+      "level2": {
+        "Rupees": 50,
+        "defense": 8,
+        "Brightbloom seed": 20,
+        "Brightcap": 5
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 20,
+        "Giant Brightbloom seed": 15,
+        "Deep Firefly": 10,
+        "Glowing Cave Fish": 5
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Giant Brightbloom seed": 20,
+        "Large Zonaite": 10,
+        "Diamond": 3
+      }
+    },
+    "body": {
+      "name": "miner's top",
+      "defense": 3,
+      "obtained": false,
+      "location": "Daphnes Canyon Mine",
+      "description": "A shirt featuring lamps of various sizes filled with bioluminescent material. Made to help with excavating dark environments.",
+      "level": 0,
+      "level1": { "Rupees": 10, "defense": 5, "Brightbloom seed": 10 },
+      "level2": {
+        "Rupees": 50,
+        "defense": 8,
+        "Brightbloom seed": 20,
+        "Brightcap": 5
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 20,
+        "Giant Brightbloom seed": 15,
+        "Deep Firefly": 10,
+        "Glowing Cave Fish": 5
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Giant Brightbloom seed": 20,
+        "Large Zonaite": 10,
+        "Diamond": 3
+      }
+    }
+  },
+  "ember_set": {
+    "head": {
+      "name": "ember headdress",
+      "defense": 2,
+      "obtained": false,
+      "location": "YunoboCo HQ South Cave",
+      "description": "Used in ancient rituals, this item is made of heat-absorbing cloth that produces flame in high-temperature environments.",
+      "level": 0,
+      "level1": { "Rupees": 10, "defense": 4, "Fire fruit": 3 },
+      "level2": {
+        "Rupees": 50,
+        "defense": 6,
+        "Firebreath Lizalfos horn": 5,
+        "Summerwing butterfly": 5
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 9,
+        "Fire Like stone": 5,
+        "Warm Darner": 5,
+        "Large Zonai charge": 5
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 16,
+        "Gleeok flame horn": 5,
+        "Sizzlefin Trout": 10,
+        "Large Zonai charge": 10
+      }
+    },
+    "legs": {
+      "name": "ember trousers",
+      "defense": 2,
+      "obtained": false,
+      "location": "Goronbi River Cave",
+      "description": "Used in ancient rituals, this item is made of heat-absorbing cloth that produces flame in high-temperature environments.",
+      "level": 0,
+      "level1": { "Rupees": 10, "defense": 4, "Fire fruit": 3 },
+      "level2": {
+        "Rupees": 50,
+        "defense": 6,
+        "Firebreath Lizalfos horn": 5,
+        "Summerwing butterfly": 5
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 9,
+        "Fire Like stone": 5,
+        "Warm Darner": 5,
+        "Large Zonai charge": 5
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 16,
+        "Gleeok flame horn": 5,
+        "Sizzlefin Trout": 10,
+        "Large Zonai charge": 10
+      }
+    },
+    "body": {
+      "name": "ember shirt",
+      "defense": 2,
+      "obtained": false,
+      "location": "Goronbi River Cave",
+      "description": "Used in ancient rituals, this item is made of heat-absorbing cloth that produces flame in high-temperature environments.",
+      "level": 0,
+      "level1": { "Rupees": 10, "defense": 4, "Fire fruit": 3 },
+      "level2": {
+        "Rupees": 50,
+        "defense": 6,
+        "Firebreath Lizalfos horn": 5,
+        "Summerwing butterfly": 5
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 9,
+        "Fire Like stone": 5,
+        "Warm Darner": 5,
+        "Large Zonai charge": 5
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 16,
+        "Gleeok flame horn": 5,
+        "Sizzlefin Trout": 10,
+        "Large Zonai charge": 10
+      }
+    }
+  },
+  "charged_set": {
+    "head": {
+      "name": "charged headdress",
+      "defense": 3,
+      "obtained": false,
+      "location": "0968, -2800, 0007",
+      "description": "Used in ancient rituals and made from conductive material, this item produces electricity during thunderstorms.",
+      "level": 0,
+      "level1": { "Rupees": 10, "defense": 5, "Shock fruit": 3 },
+      "level2": {
+        "Rupees": 50,
+        "defense": 8,
+        "Thunderwing Butterfly": 3,
+        "Electric Lizalfos horn": 5
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 12,
+        "Shock Like stone": 5,
+        "Electric Darner": 5,
+        "Large Zonai charge": 3
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Gleeok thunder horn": 5,
+        "Voltfin trout": 10,
+        "Large Zonai charge": 5
+      }
+    },
+    "legs": {
+      "name": "charged trousers",
+      "defense": 3,
+      "obtained": false,
+      "location": "0980, -2693, 0007",
+      "description": "Used in ancient rituals and made from conductive material, this item produces electricity during thunderstorms.",
+      "level": 0,
+      "level1": { "Rupees": 10, "defense": 5, "Shock fruit": 3 },
+      "level2": {
+        "Rupees": 50,
+        "defense": 8,
+        "Thunderwing Butterfly": 3,
+        "Electric Lizalfos horn": 5
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 12,
+        "Shock Like stone": 5,
+        "Electric Darner": 5,
+        "Large Zonai charge": 3
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Gleeok thunder horn": 5,
+        "Voltfin trout": 10,
+        "Large Zonai charge": 5
+      }
+    },
+    "body": {
+      "name": "charged shirt",
+      "defense": 3,
+      "obtained": false,
+      "location": "0968, -2531, 0008",
+      "description": "Used in ancient rituals and made from conductive material, this item produces electricity during thunderstorms.",
+      "level": 0,
+      "level1": { "Rupees": 10, "defense": 5, "Shock fruit": 3 },
+      "level2": {
+        "Rupees": 50,
+        "defense": 8,
+        "Thunderwing Butterfly": 3,
+        "Electric Lizalfos horn": 5
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 12,
+        "Shock Like stone": 5,
+        "Electric Darner": 5,
+        "Large Zonai charge": 3
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Gleeok thunder horn": 5,
+        "Voltfin trout": 10,
+        "Large Zonai charge": 5
+      }
+    }
+  },
+  "frostbite_set": {
+    "head": {
+      "name": "frostbite headdress",
+      "defense": 2,
+      "obtained": false,
+      "location": "-3923, 2843, -0016",
+      "description": "Used in ancient rituals, this item's cold-absorbing cloth produces frost in low-temperature environments.",
+      "level": 0,
+      "level1": { "Rupees": 10, "defense": 4, "Ice fruit": 3 },
+      "level2": {
+        "Rupees": 50,
+        "defense": 6,
+        "Icebreath Lizalfos horn": 5,
+        "Winterwing Butterfly": 5
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 9,
+        "Ice Like stone": 5,
+        "Cold Darner": 5,
+        "Large Zonai charge": 5
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 16,
+        "Gleeok frost horn": 5,
+        "Chillfin trout": 10,
+        "Large Zonai charge": 10
+      }
+    },
+    "legs": {
+      "name": "frostbite trousers",
+      "defense": 2,
+      "obtained": false,
+      "location": "-2887, 2503, 0393",
+      "description": "Used in ancient rituals, this item's cold-absorbing cloth produces frost in low-temperature environments.",
+      "level": 0,
+      "level1": { "Rupees": 10, "defense": 4, "Ice fruit": 3 },
+      "level2": {
+        "Rupees": 50,
+        "defense": 6,
+        "Icebreath Lizalfos horn": 5,
+        "Winterwing Butterfly": 5
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 9,
+        "Ice Like stone": 5,
+        "Cold Darner": 5,
+        "Large Zonai charge": 5
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 16,
+        "Gleeok frost horn": 5,
+        "Chillfin trout": 10,
+        "Large Zonai charge": 10
+      }
+    },
+    "body": {
+      "name": "frostbite shirt",
+      "defense": 2,
+      "obtained": false,
+      "location": "-2991, 1650, 0200",
+      "description": "Used in ancient rituals, this item's cold-absorbing cloth produces frost in low-temperature environments.",
+      "level": 0,
+      "level1": { "Rupees": 10, "defense": 4, "Ice fruit": 3 },
+      "level2": {
+        "Rupees": 50,
+        "defense": 6,
+        "Icebreath Lizalfos horn": 5,
+        "Winterwing Butterfly": 5
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 9,
+        "Ice Like stone": 5,
+        "Cold Darner": 5,
+        "Large Zonai charge": 5
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 16,
+        "Gleeok frost horn": 5,
+        "Chillfin trout": 10,
+        "Large Zonai charge": 10
+      }
+    }
+  },
+  "cece_hat": {
+    "head": {
+      "name": "cece hat",
+      "defense": 3,
+      "obtained": false,
+      "location": null,
+      "description": "An avant-garde masterpiece designed by Cece. Guaranteed to make the fashionistas heads turn.",
+      "level": 0
+    }
+  },
+  "mystic_set": {
+    "head": {
+      "name": "mystic headpiece",
+      "defense": 3,
+      "obtained": false,
+      "location": "Kilton's Monster Shop",
+      "description": "Headgear acquired in exchange for Bubbul gems. Made with prayers spirits, it protects the wear allowing them to lose rupees instead of health when hit.",
+      "level": 0
+    },
+    "legs": {
+      "name": "mystic trousers",
+      "defense": 3,
+      "obtained": false,
+      "location": "Kilton's Monster Shop",
+      "description": "Trousers acquired in exchange for Bubbul gems. Each thread is blessed by spirits, protecting the wearer by allowig them to lose rupees instead of health when hit.",
+      "level": 0
+    },
+    "body": {
+      "name": "mystic robe",
+      "defense": 3,
+      "obtained": false,
+      "location": "Kilton's Monster Shop",
+      "description": "A robe acquired in exchange for, Bubbul gems. Woven with prayers to spirits, it protects the wearer, allowing them to lose rupees instead of health when hit.",
+      "level": 0
+    }
+  },
+  "zonaite_set": {
+    "head": {
+      "name": "zonaite helm",
+      "defense": 4,
+      "obtained": false,
+      "location": "-3593, 0942, 1731",
+      "description": "A helmet forged of zonaite. The magic infused into it during its production grants its wearer improved energy efficiency for Zonai devices.",
+      "level": 0,
+      "level1": { "Rupees": 10, "defense": 7, "Soldier Construct Horn": 5 },
+      "level2": {
+        "Rupees": 50,
+        "defense": 12,
+        "Soldier Construct II Horn": 5,
+        "Zonaite": 5,
+        "Catain Construct I Horn": 5
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 18,
+        "Large Zonaite": 5,
+        "Catain Construct II Horn": 5,
+        "Soldier Construct III Horn": 5
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 28,
+        "Large Zonaite": 10,
+        "Captain Construct III Horn": 5,
+        "Soldier Construct IV Horn": 5
+      }
+    },
+    "legs": {
+      "name": "zonaite shin guards",
+      "defense": 4,
+      "obtained": false,
+      "location": "4467, 2028, 1413",
+      "description": "Shin guards forged of zonaite. Wearing them awakens the magic of their creators, improving efficiency for Zonai devices.",
+      "level": 0,
+      "level1": { "Rupees": 10, "defense": 7, "Soldier Construct Horn": 5 },
+      "level2": {
+        "Rupees": 50,
+        "defense": 12,
+        "Soldier Construct II Horn": 5,
+        "Zonaite": 5,
+        "Catain Construct I Horn": 5
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 18,
+        "Large Zonaite": 5,
+        "Catain Construct II Horn": 5,
+        "Soldier Construct III Horn": 5
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 28,
+        "Large Zonaite": 10,
+        "Captain Construct III Horn": 5,
+        "Soldier Construct IV Horn": 5
+      }
+    },
+    "body": {
+      "name": "zonaite waistguard",
+      "defense": 4,
+      "obtained": false,
+      "location": "2375, -1775, 1489",
+      "description": "A waistguard made from zonait hile wearing it, you'll reap the benefit of its imbued magic and improve the effieiency of Zonai devices.",
+      "level": 0,
+      "level1": { "Rupees": 10, "defense": 7, "Soldier Construct Horn": 5 },
+      "level2": {
+        "Rupees": 50,
+        "defense": 12,
+        "Soldier Construct II Horn": 5,
+        "Zonaite": 5,
+        "Catain Construct I Horn": 5
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 18,
+        "Large Zonaite": 5,
+        "Catain Construct II Horn": 5,
+        "Soldier Construct III Horn": 5
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 28,
+        "Large Zonaite": 10,
+        "Captain Construct III Horn": 5,
+        "Soldier Construct IV Horn": 5
+      }
+    }
+  },
+  "awakening_set": {
+    "head": {
+      "name": "mask of awakening",
+      "defense": 3,
+      "obtained": false,
+      "location": "-2307, 0854, 0113",
+      "description": "Legend says this mask resembles a hero who explored a mysterious place that one could visit but not leave.",
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 5,
+        "Luminous stone": 10,
+        "Star fragment": 1
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 8,
+        "Luminous stone": 15,
+        "Star fragment": 1
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 12,
+        "Luminous stone": 20,
+        "Star fragment": 1
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Luminous stone": 30,
+        "Star fragment": 1
+      }
+    },
+    "legs": {
+      "name": "trousers of awakening",
+      "defense": 3,
+      "obtained": false,
+      "location": "-1173, -1310, 0046",
+      "description": "Legend says these trousers were worn by a hero who explored a mysterious island that one could visit but not leave.",
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 5,
+        "Luminous stone": 10,
+        "Star fragment": 1
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 8,
+        "Luminous stone": 15,
+        "Star fragment": 1
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 12,
+        "Luminous stone": 20,
+        "Star fragment": 1
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Luminous stone": 30,
+        "Star fragment": 1
+      }
+    },
+    "body": {
+      "name": "tunic of awakening",
+      "defense": 3,
+      "obtained": false,
+      "location": "1415, 2106, 0287",
+      "description": "Legend says this armor was worn by a hero who explored a mysterious area that one could visit but not leave.",
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 5,
+        "Luminous stone": 10,
+        "Star fragment": 1
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 8,
+        "Luminous stone": 15,
+        "Star fragment": 1
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 12,
+        "Luminous stone": 20,
+        "Star fragment": 1
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Luminous stone": 30,
+        "Star fragment": 1
+      }
+    }
+  },
+  "champions_tunic": {
+    "head": {
+      "name": "champion's leathers",
+      "defense": 5,
+      "obtained": false,
+      "location": "Hyrule Castle Sanctum",
+      "description": "This garment, worn by those in good standing with Hyrule royalty, has been reworked with the latest improvements, such a new shoulder guard.",
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 8,
+        "Silent Princess": 3,
+        "Light Dragon's scale": 2
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 14,
+        "Silent Princess": 3,
+        "Light Dragon's talon": 2,
+        "Sundelion": 10
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 22,
+        "Silent Princess": 5,
+        "Shard of Light Dragon's fang": 2,
+        "Sundelion": 15
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 32,
+        "Silent Princess": 10,
+        "Light Dragon's horn": 2,
+        "Sundelion": 20
+      }
+    }
+  },
+  "horriblin_mask": {
+    "head": {
+      "name": "horriblin mask",
+      "defense": 3,
+      "obtained": false,
+      "location": "Kilton's Monster Shop",
+      "description": "Kilton's handmade Horriblin headgear. The big nose and smiley mouth look just like those of the real monster... Equip it to blend in with Horriblins.'",
+      "level": 0
+    }
+  },
+  "depths_set": {
+    "head": {
+      "name": "hood of the depths",
+      "defense": 3,
+      "obtained": false,
+      "location": "Bargainer Statue",
+      "description": "A hood acquired by offering Poes to a strange statue found in the Depths. It offers some resistance to gloom.",
+      "level": 0,
+      "level1": { "Rupees": 10, "defense": 5, "Deep Firefly": 3 },
+      "level2": { "Rupees": 50, "defense": 8, "Dark clump": 5, "Frox fang": 3 },
+      "level3": {
+        "Rupees": 200,
+        "defense": 12,
+        "Zonaite": 20,
+        "Frox fingernail": 3,
+        "Obsidian Frox fang": 3
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Blue-White Frox fang": 5,
+        "Large Zonaite": 10,
+        "Frox guts": 3
+      }
+    },
+    "legs": {
+      "name": "gaiters of the depths",
+      "defense": 3,
+      "obtained": false,
+      "location": "Bargainer Statue",
+      "description": "Gaiters acquired by offering Poes to a strange statue found in the Depths. They offer some resistance to gloom.",
+      "level": 0,
+      "level1": { "Rupees": 10, "defense": 5, "Deep Firefly": 3 },
+      "level2": { "Rupees": 50, "defense": 8, "Dark clump": 5, "Frox fang": 3 },
+      "level3": {
+        "Rupees": 200,
+        "defense": 12,
+        "Zonaite": 20,
+        "Frox fingernail": 3,
+        "Obsidian Frox fang": 3
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Blue-White Frox fang": 5,
+        "Large Zonaite": 10,
+        "Frox guts": 3
+      }
+    },
+    "body": {
+      "name": "tunic of the depths",
+      "defense": 3,
+      "obtained": false,
+      "location": "Bargainer Statue",
+      "description": "A tunic acquired by offering Poes to a strange statue found in the Depths. It offers some resistance to gloom.",
+      "level": 0,
+      "level1": { "Rupees": 10, "defense": 5, "Deep Firefly": 3 },
+      "level2": { "Rupees": 50, "defense": 8, "Dark clump": 5, "Frox fang": 3 },
+      "level3": {
+        "Rupees": 200,
+        "defense": 12,
+        "Zonaite": 20,
+        "Frox fingernail": 3,
+        "Obsidian Frox fang": 3
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Blue-White Frox fang": 5,
+        "Large Zonaite": 10,
+        "Frox guts": 3
+      }
+    }
+  },
+  "wellworn_hair_band": {
+    "head": {
+      "name": "well-worn hair band",
+      "defense": 0,
+      "obtained": false,
+      "location": "Link's House",
+      "description": "An old, worn, simple hair band. Its color has long faded, but it still has some life left in it. Wearing it in your hair makes you sentimental about times past.",
+      "level": 0
+    }
+  },
+  "tunic_of_memories": {
+    "body": {
+      "name": "tunic of memories",
+      "defense": 4,
+      "obtained": false,
+      "location": "Bargainer Statue",
+      "description": "In ancient Hyrule, this garment could only be worn by one who had earned the respect of the royal family. It’s dyed in vibrant blue.",
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 7,
+        "Silent Princess": 3,
+        "Light Dragon's scale": 1
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 12,
+        "Silent Princess": 3,
+        "Light Dragon's talon": 1,
+        "Farosh's horn": 2
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 18,
+        "Silent Princess": 5,
+        "Shard of Light Dragon's fang": 1,
+        "Naydra's horn": 2
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 28,
+        "Silent Princess": 10,
+        "Light Dragon's horn": 1,
+        "Dinraal's horn": 2
+      }
+    }
+  },
+  "yiga_set": {
+    "head": {
+      "name": "yiga mask",
+      "defense": 1,
+      "obtained": false,
+      "location": "Yiga Clan Hideout",
+      "description": "A mask supplied to members of the Yiga Clan. It covers the entire face, keeping even breath sounds to a minimum. Perfect sneaking, but lacks protection due to its light material.",
+      "level": 0,
+      "level1": { "Rupees": 10, "defense": 3, "Octorok eyeball": 2 },
+      "level2": {
+        "Rupees": 50,
+        "defense": 5,
+        "puffshroom": 3,
+        "Firebreath Lizalfos tail": 3
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 7,
+        "Icebreath Lizalfos tail": 5,
+        "Keese eyeball": 5
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 12,
+        "Electric Lizalfos tail": 5,
+        "Black Hinox horn": 3,
+        "Mighty Bananas": 10
+      }
+    },
+    "legs": {
+      "name": "yiga tights",
+      "defense": 1,
+      "obtained": false,
+      "location": "Yiga Clan Hideout",
+      "description": "Tights supplied to members of the Yiga Clan. The soft material on the soles silences footsteps, but protection is lacking due to the light material.",
+      "level": 0,
+      "level1": { "Rupees": 10, "defense": 3, "Octorok eyeball": 2 },
+      "level2": {
+        "Rupees": 50,
+        "defense": 5,
+        "puffshroom": 3,
+        "Firebreath Lizalfos tail": 3
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 7,
+        "Icebreath Lizalfos tail": 5,
+        "Keese eyeball": 5
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 12,
+        "Electric Lizalfos tail": 5,
+        "Black Hinox horn": 3,
+        "Mighty Bananas": 10
+      }
+    },
+    "body": {
+      "name": "yiga armor",
+      "defense": 1,
+      "obtained": false,
+      "location": "Yiga Clan Hideout",
+      "description": "Armor supplied to members of the Yiga Clan. Defensive parts are minimized for silence, so it's lacking in protection.",
+      "level": 0,
+      "level1": { "Rupees": 10, "defense": 3, "Octorok eyeball": 2 },
+      "level2": {
+        "Rupees": 50,
+        "defense": 5,
+        "puffshroom": 3,
+        "Firebreath Lizalfos tail": 3
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 7,
+        "Icebreath Lizalfos tail": 5,
+        "Keese eyeball": 5
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 12,
+        "Electric Lizalfos tail": 5,
+        "Black Hinox horn": 3,
+        "Mighty Bananas": 10
+      }
+    }
+  },
+  "snow_boots": {
+    "legs": {
+      "name": "snow boots",
+      "defense": 3,
+      "obtained": false,
+      "location": "Gerudo Secret Club",
+      "description": "Boots designed for hiking up snowy mountains. They evenly distribute your body weight so you can maintain your normal movement speed on deep snow.",
+      "level": 0,
+      "level1": { "Rupees": 10, "defense": 5, "Hightail lizard": 3 },
+      "level2": {
+        "Rupees": 50,
+        "defense": 8,
+        "Octorok tentacle": 5,
+        "Swift carrot": 5
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 12,
+        "Octo balloon": 5,
+        "Rushroom": 20
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Naydra's scale": 2,
+        "Swift Violet": 20
+      }
+    }
+  },
+  "dark_set": {
+    "head": {
+      "name": "dark hood",
+      "defense": 3,
+      "obtained": false,
+      "location": "Bargainer Statue",
+      "description": "Headwear obtained by offering Poes to a strange statue. It resembles the head of a monster born of shadow, and its eyes glow eerie red in the dark.",
+      "level": 0
+    },
+    "legs": {
+      "name": "dark trousers",
+      "defense": 3,
+      "obtained": false,
+      "location": "Bargainer Statue",
+      "description": "A tunic obtained by offering Poes to a strange statue. It's a spurious replica of the green outfit once worn by a legendary hero.",
+      "level": 0
+    },
+    "body": {
+      "name": "dark tunic",
+      "defense": 3,
+      "obtained": false,
+      "location": "Bargainer Statue",
+      "description": "Trousers obtained by offering Poes to a strange statue. They look ordinary at first, but on closer inspection, they resemble the legs of a monster born of shadow.",
+      "level": 0
+    }
+  },
+  "phantom_set": {
+    "head": {
+      "name": "phantom helmet",
+      "defense": 8,
+      "obtained": false,
+      "location": "Puffer Beach Overhead Cave",
+      "description": "Myths abound about armored phantoms that terrorized brave heroes. This helmet looks just like the ones they supposedly wore. It's a rather rare find.",
+      "level": 0
+    },
+    "legs": {
+      "name": "phantom greaves",
+      "defense": 8,
+      "obtained": false,
+      "location": "Ancient Altar Ruins",
+      "description": "Myths abound about armored phantoms that terrorized brave heroes. These greaves look just like the ones they supposedly wore. They're a rather rare find.",
+      "level": 0
+    },
+    "body": {
+      "name": "phantom armor",
+      "defense": 8,
+      "obtained": false,
+      "location": "Tamio River Downstream Cave",
+      "description": "Myths abound about armored phantoms that terrorized brave heroes. This piece looks just like the armor they allegedly wore. It's a rather rare find.",
+      "level": 0
+    }
+  },
+  "majoras_mask": {
+    "head": {
+      "name": "majora's mask",
+      "defense": 1,
+      "obtained": false,
+      "location": "Floating Coliseum",
+      "description": "An eerie mask passed down from ancient times. Wearing it makes it harder for certain enemies to spot you. It's a rather rare find.",
+      "level": 0
+    }
+  },
+  "midnas_helmet": {
+    "head": {
+      "name": "midna's helmet",
+      "defense": 7,
+      "obtained": false,
+      "location": "4562, -3620, -0471",
+      "description": "A helmet much like the one Midna wore when she fought alongside the Hero of Twilight. It's a rather rare find.",
+      "level": 0
+    }
+  },
+  "tingles_set": {
+    "head": {
+      "name": "tingle's hood",
+      "defense": 2,
+      "obtained": false,
+      "location": "Eighth Heroine Cave",
+      "description": "There was once a man who claimed to be the very reincarnation of a fairy. He treasured this hood, and so will you. After all, it's a rather rare find. Kooloo-Limpah.",
+      "level": 0
+    },
+    "legs": {
+      "name": "tingle's tights",
+      "defense": 2,
+      "obtained": false,
+      "location": "Cape Cales Cliffbase Cave",
+      "description": "There was once a man who claimed to be the very reincarnation of a fairy. He treasured this hood, and so will you. After all, it's a rather rare find. Kooloo-Limpah.",
+      "level": 0
+    },
+    "body": {
+      "name": "tingle's shirt",
+      "defense": 2,
+      "obtained": false,
+      "location": "Dueling Peaks South Cave",
+      "description": "There was once a man who claimed to be the very reincarnation of a fairy. He treasured this hood, and so will you. After all, it's a rather rare find. Kooloo-Limpah.",
+      "level": 0
+    }
+  },
+  "island_lobster_shirt": {
+    "body": {
+      "name": "island lobster shirt",
+      "defense": 1,
+      "obtained": false,
+      "location": "2892, -3433, 0000",
+      "description": "A soft, comfortable shirt traditional to a southern island. It's made of breathable fabric, so it's well suited to warm regions.",
+      "level": 0
+    }
+  },
+  "korok_mask": {
+    "head": {
+      "name": "korok mask",
+      "defense": 1,
+      "obtained": false,
+      "location": "Forest Coliseum",
+      "description": "A mask inspired by those fun-loving Koroks. It shakes when one is nearby. It's a rather rare find.",
+      "level": 0
+    }
+  },
+  "ravios_hood": {
+    "head": {
+      "name": "ravio's hood",
+      "defense": 2,
+      "obtained": false,
+      "location": "Secluded Coliseum",
+      "description": "The hood of a traveling merchant who had a bracelet that could turn the wearer into a painting. Wearing it increases your sideways climbing speed. It's a rather rare find.",
+      "level": 0
+    }
+  },
+  "zants_helmet": {
+    "head": {
+      "name": "zant's helmet",
+      "defense": 3,
+      "obtained": false,
+      "location": "Scorching Coliseum",
+      "description": "The ruthless Usurper King of the Twilight Realm wore a helmet much like this one. It's a rather rare find.",
+      "level": 0
+    }
+  },
+  "royal_guard_set": {
+    "head": {
+      "name": "royal guard cap",
+      "defense": 4,
+      "obtained": false,
+      "location": "Princess Zelda's Room",
+      "description": "This spiffy cap is part of the uniform for Hyrule's royal guard. It's lighter than it looks and easy to move around in.",
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 6,
+        "Bokoblin guts": 3,
+        "Boss Bokoblin horn": 3
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 10,
+        "Blue Boss Bokoblin horn": 3,
+        "Boss Bokoblin fang": 3
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 15,
+        "Black Boss Bokoblin horn": 3,
+        "Hinox guts": 3
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 24,
+        "Silver Boss Bokoblin horn": 3,
+        "Molduga guts": 3,
+        "gleeok guts": 3
+      }
+    },
+    "legs": {
+      "name": "royal guard boots",
+      "defense": 4,
+      "obtained": false,
+      "location": "King's Study",
+      "description": "These boots are part of the uniform for Hyrule's royal guard. They're a fine blend of style and function.",
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 6,
+        "Bokoblin guts": 3,
+        "Boss Bokoblin horn": 3
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 10,
+        "Blue Boss Bokoblin horn": 3,
+        "Boss Bokoblin fang": 3
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 15,
+        "Black Boss Bokoblin horn": 3,
+        "Hinox guts": 3
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 24,
+        "Silver Boss Bokoblin horn": 3,
+        "Molduga guts": 3,
+        "gleeok guts": 3
+      }
+    },
+    "body": {
+      "name": "royal guard uniform",
+      "defense": 4,
+      "obtained": false,
+      "location": "Guard Chamber",
+      "description": "The dignified uniform for Hyrule's royal guard. It's made of high-quality materials and is both stylish and practical.",
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 6,
+        "Bokoblin guts": 3,
+        "Boss Bokoblin horn": 3
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 10,
+        "Blue Boss Bokoblin horn": 3,
+        "Boss Bokoblin fang": 3
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 15,
+        "Black Boss Bokoblin horn": 3,
+        "Hinox guts": 3
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 24,
+        "Silver Boss Bokoblin horn": 3,
+        "Molduga guts": 3,
+        "gleeok guts": 3
+      }
+    }
+  },
+  "evil_spirit_set": {
+    "head": {
+      "name": "evil spirit mask",
+      "defense": 4,
+      "obtained": false,
+      "location": "-1793, -3462, -0522",
+      "description": "Some believe this eerie mask is inspired by a malevolent entity. It's a rather rare find.",
+      "level": 0
+    },
+    "legs": {
+      "name": "evil spirit greaves",
+      "defense": 4,
+      "obtained": false,
+      "location": "-0820, 3534, -0682",
+      "description": "Some believe these greaves are inspired by a malevolent entity. They're a rather rare find.",
+      "level": 0
+    },
+    "body": {
+      "name": "evil spirit armor",
+      "defense": 4,
+      "obtained": false,
+      "location": "Lomei Labyrinth",
+      "description": "Some believe this eerie mask is inspired by a malevolent entity. They're a rather rare find.",
+      "level": 0
+    }
+  },
+  "vah_ruta_divine_helm": {
+    "head": {
+      "name": "vah ruta divine helm",
+      "defense": 2,
+      "obtained": false,
+      "location": "3242, 0375, 0078",
+      "description": "A helm worn by a warrior who protected the Zora in a time beyond memory. It's said to deepen the bond with the Zora when worn by a Hylian.",
+      "level": 0,
+      "level1": { "Rupees": 10, "defense": 4, "Zonaite": 5, "Opal": 5 },
+      "level2": { "Rupees": 50, "defense": 6, "Zonaite": 10, "Opal": 10 },
+      "level3": {
+        "Rupees": 200,
+        "defense": 9,
+        "Opal": 15,
+        "Large Zonaite": 5,
+        "Dazzlefruit": 5
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 16,
+        "Opal": 25,
+        "Large Zonaite": 10,
+        "Dazzlefruit": 10
+      }
+    }
+  },
+  "vah_medoh_divine_helm": {
+    "head": {
+      "name": "vah medoh divine helm",
+      "defense": 2,
+      "obtained": false,
+      "location": "-3960, 3267, 0140",
+      "description": "A helm worn by a warrior who protected the Rito in a time beyond memory. It's said to deepen the bond with the Rito when worn by a Hylian.",
+      "level": 0,
+      "level1": { "Rupees": 10, "defense": 4, "Zonaite": 5, "Sapphire": 1 },
+      "level2": { "Rupees": 50, "defense": 6, "Zonaite": 10, "Sapphire": 4 },
+      "level3": {
+        "Rupees": 200,
+        "defense": 9,
+        "Sapphire": 6,
+        "Large Zonaite": 5,
+        "Dazzlefruit": 5
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 16,
+        "Sapphire": 10,
+        "Large Zonaite": 10,
+        "Dazzlefruit": 10
+      }
+    }
+  },
+  "vah_rudania_divine_helm": {
+    "head": {
+      "name": "vah rudania divine helm",
+      "defense": 2,
+      "obtained": false,
+      "location": "Lizard's Burrow Cave",
+      "description": "A helm worn by a warrior who protected the Gorons in a time beyond memory. It’s said to deepen the bond with the Gorons when worn by a Hylian.",
+      "level": 0,
+      "level1": { "Rupees": 10, "defense": 4, "Zonaite": 5, "Ruby": 1 },
+      "level2": { "Rupees": 50, "defense": 6, "Zonaite": 10, "Ruby": 4 },
+      "level3": {
+        "Rupees": 200,
+        "defense": 9,
+        "Ruby": 6,
+        "Large Zonaite": 5,
+        "Dazzlefruit": 5
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 16,
+        "Ruby": 10,
+        "Large Zonaite": 10,
+        "Dazzlefruit": 10
+      }
+    }
+  },
+  "vah_naboris_divine_helm": {
+    "head": {
+      "name": "vah naboris divine helm",
+      "defense": 2,
+      "obtained": false,
+      "location": "West Gerudo Underground Ruins",
+      "description": "A helm worn by a warrior who protected the Gerudo in a time beyond memory. It's said to deepen the bond with the Gerudo when worn by a Hylian.",
+      "level": 0,
+      "level1": { "Rupees": 10, "defense": 4, "Zonaite": 5, "Topaz": 1 },
+      "level2": { "Rupees": 50, "defense": 6, "Zonaite": 10, "Topaz": 4 },
+      "level3": {
+        "Rupees": 200,
+        "defense": 9,
+        "Topaz": 6,
+        "Large Zonaite": 5,
+        "Dazzlefruit": 5
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 16,
+        "Topaz": 10,
+        "Large Zonaite": 10,
+        "Dazzlefruit": 10
+      }
+    }
+  },
+  "time_set": {
+    "head": {
+      "name": "cap of time",
+      "defense": 3,
+      "obtained": false,
+      "location": "-4079, 2799, -0450",
+      "description": "According to legend, this cap was once worn by a hero who traveled through time. A truly timeless item perfect for kids and adults alike!",
+      "level": 0,
+      "level1": { "Rupees": 10, "defense": 5, "Amber": 10, "Star fragment": 1 },
+      "level2": { "Rupees": 50, "defense": 8, "Amber": 20, "Star fragment": 1 },
+      "level3": {
+        "Rupees": 200,
+        "defense": 12,
+        "Amber": 30,
+        "Star fragment": 1
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Amber": 40,
+        "Star fragment": 1
+      }
+    },
+    "legs": {
+      "name": "trousers of time",
+      "defense": 3,
+      "obtained": false,
+      "location": "-4179, -0697, -1121",
+      "description": "Legends say these trousers were once worn by a hero who traveled through time. They were originally made by a people who made their home in the forest.",
+      "level": 0,
+      "level1": { "Rupees": 10, "defense": 5, "Amber": 10, "Star fragment": 1 },
+      "level2": { "Rupees": 50, "defense": 8, "Amber": 20, "Star fragment": 1 },
+      "level3": {
+        "Rupees": 200,
+        "defense": 12,
+        "Amber": 30,
+        "Star fragment": 1
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Amber": 40,
+        "Star fragment": 1
+      }
+    },
+    "body": {
+      "name": "tunic of time",
+      "defense": 3,
+      "obtained": false,
+      "location": "-1999, 1307, -0715",
+      "description": "Legend has it that this armor was once worn by a hero who traveled through time. Strangely, its special design is fitted for children and adults alike.",
+      "level": 0,
+      "level1": { "Rupees": 10, "defense": 5, "Amber": 10, "Star fragment": 1 },
+      "level2": { "Rupees": 50, "defense": 8, "Amber": 20, "Star fragment": 1 },
+      "level3": {
+        "Rupees": 200,
+        "defense": 12,
+        "Amber": 30,
+        "Star fragment": 1
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Amber": 40,
+        "Star fragment": 1
+      }
+    }
+  },
+  "wind_set": {
+    "head": {
+      "name": "cap of the wind",
+      "defense": 3,
+      "obtained": false,
+      "location": "4707, 1307, 0104",
+      "description": "According to legend, this cap was treasured by a hero who travelled the Great Sea. It flaps quite serenely in a soft sea breeze.",
+      "level": 0,
+      "level1": { "Rupees": 10, "defense": 5, "Opal": 5, "Star fragment": 1 },
+      "level2": { "Rupees": 50, "defense": 8, "Opal": 10, "Star fragment": 1 },
+      "level3": {
+        "Rupees": 200,
+        "defense": 12,
+        "Opal": 15,
+        "Star fragment": 1
+      },
+      "level4": { "Rupees": 500, "defense": 20, "Opal": 25, "Star fragment": 1 }
+    },
+    "legs": {
+      "name": "trousers of the wind",
+      "defense": 3,
+      "obtained": false,
+      "location": "3794, -3618, -0446",
+      "description": "Legends say these trousers were cherished by a hero who sailed the Great Sea. They’re water-resistant, naturally.",
+      "level": 0,
+      "level1": { "Rupees": 10, "defense": 5, "Opal": 5, "Star fragment": 1 },
+      "level2": { "Rupees": 50, "defense": 8, "Opal": 10, "Star fragment": 1 },
+      "level3": {
+        "Rupees": 200,
+        "defense": 12,
+        "Opal": 15,
+        "Star fragment": 1
+      },
+      "level4": { "Rupees": 500, "defense": 20, "Opal": 25, "Star fragment": 1 }
+    },
+    "body": {
+      "name": "tunic of the wind",
+      "defense": 3,
+      "obtained": false,
+      "location": "-3791, 1343, -0682",
+      "description": "Legend has it this armor was once cherished by a hero who sailed the Great Sea. It’s said to have been a gift from his grandmother.",
+      "level": 0,
+      "level1": { "Rupees": 10, "defense": 5, "Opal": 5, "Star fragment": 1 },
+      "level2": { "Rupees": 50, "defense": 8, "Opal": 10, "Star fragment": 1 },
+      "level3": {
+        "Rupees": 200,
+        "defense": 12,
+        "Opal": 15,
+        "Star fragment": 1
+      },
+      "level4": { "Rupees": 500, "defense": 20, "Opal": 25, "Star fragment": 1 }
+    }
+  },
+  "twilight_set": {
+    "head": {
+      "name": "cap of twilight",
+      "defense": 3,
+      "obtained": false,
+      "location": "0263, 3121, -0623",
+      "description": "According to legend, this cap was worn by a hero who battled the creatures of twilight.",
+      "level": 0,
+      "level1": { "Rupees": 10, "defense": 5, "Topaz": 1, "Star fragment": 1 },
+      "level2": { "Rupees": 50, "defense": 8, "Topaz": 4, "Star fragment": 1 },
+      "level3": {
+        "Rupees": 200,
+        "defense": 12,
+        "Topaz": 6,
+        "Star fragment": 1
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Topaz": 10,
+        "Star fragment": 1
+      }
+    },
+    "legs": {
+      "name": "trousers of twilight",
+      "defense": 3,
+      "obtained": false,
+      "location": "3318, 1506, -0856",
+      "description": "Legends say these trousers were once worn by a hero who battled the beasts of twilight.",
+      "level": 0,
+      "level1": { "Rupees": 10, "defense": 5, "Topaz": 1, "Star fragment": 1 },
+      "level2": { "Rupees": 50, "defense": 8, "Topaz": 4, "Star fragment": 1 },
+      "level3": {
+        "Rupees": 200,
+        "defense": 12,
+        "Topaz": 6,
+        "Star fragment": 1
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Topaz": 10,
+        "Star fragment": 1
+      }
+    },
+    "body": {
+      "name": "tunic of twilight",
+      "defense": 3,
+      "level": 0,
+      "obtained": false,
+      "location": "4517, 2169, -0454",
+      "description": null,
+      "level1": { "Rupees": 10, "defense": 5, "Topaz": 1, "Star fragment": 1 },
+      "level2": { "Rupees": 50, "defense": 8, "Topaz": 4, "Star fragment": 1 },
+      "level3": {
+        "Rupees": 200,
+        "defense": 12,
+        "Topaz": 6,
+        "Star fragment": 1
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Topaz": 10,
+        "Star fragment": 1
+      }
+    }
+  },
+  "sky_set": {
+    "head": {
+      "name": "cap of the sky",
+      "defense": 3,
+      "obtained": false,
+      "location": "3822, -1986, -0632",
+      "description": "According to legend, this cap was once worn by a hero who appeared from the sky riding a mighty bird.",
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 5,
+        "Sapphire": 1,
+        "Star fragment": 1
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 8,
+        "Sapphire": 4,
+        "Star fragment": 1
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 12,
+        "Sapphire": 6,
+        "Star fragment": 1
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Sapphire": 10,
+        "Star fragment": 1
+      }
+    },
+    "legs": {
+      "name": "trousers of the sky",
+      "defense": 3,
+      "obtained": false,
+      "location": "Crenel Canyon Mine",
+      "description": "Legends say these trousers were once worn by a hero who appeared from the sky riding a mighty bird.",
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 5,
+        "Sapphire": 1,
+        "Star fragment": 1
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 8,
+        "Sapphire": 4,
+        "Star fragment": 1
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 12,
+        "Sapphire": 6,
+        "Star fragment": 1
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Sapphire": 10,
+        "Star fragment": 1
+      }
+    },
+    "body": {
+      "name": "tunic of the sky",
+      "defense": 3,
+      "obtained": false,
+      "location": "1022, 1408, -0543",
+      "description": "Legend has it this armor was worn by a hero who rode a mighty bird. It was apparently presented after a ceremonious event.",
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 5,
+        "Sapphire": 1,
+        "Star fragment": 1
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 8,
+        "Sapphire": 4,
+        "Star fragment": 1
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 12,
+        "Sapphire": 6,
+        "Star fragment": 1
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Sapphire": 10,
+        "Star fragment": 1
+      }
+    }
+  },
+  "sheiks_mask": {
+    "head": {
+      "name": "sheik's mask",
+      "defense": 2,
+      "obtained": false,
+      "location": "Desert Coliseum",
+      "description": "A mask said to have been worn by a Sheikah who saved a time-traveling hero. Made from the finest of Sheikah stealth fabrics, it is the final word in undercover gear",
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 4,
+        "Silent Princess": 1,
+        "Star fragment": 1
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 6,
+        "Silent Princess": 2,
+        "Star fragment": 2
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 9,
+        "Silent Princess": 4,
+        "Star fragment": 3
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 16,
+        "Silent Princess": 8,
+        "Star fragment": 4
+      }
+    }
+  },
+  "fierce_deity_set": {
+    "head": {
+      "name": "fierce deity mask",
+      "defense": 3,
+      "obtained": false,
+      "location": "Skull Lake Cave",
+      "description": "A mask worn by a hero from a world in which the moon was falling, granting godlike power.",
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 5,
+        "Hinox toenail": 5,
+        "Dinraal's scale": 1
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 8,
+        "Hinox tooth": 5,
+        "Dinraal's claw": 1
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 9,
+        "Hinox guts": 2,
+        "Shard of Dinraal's fang": 1
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Lynel guts": 2,
+        "Dinraal's horn": 1
+      }
+    },
+    "legs": {
+      "name": "fierce deity boots",
+      "defense": 3,
+      "obtained": false,
+      "location": "Ancient Tree Stump",
+      "description": "Boots worn by a hero from a world in which the moon threatened to fall. Wearing them provides godlike power.",
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 5,
+        "Hinox toenail": 5,
+        "Dinraal's scale": 1
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 8,
+        "Hinox tooth": 5,
+        "Dinraal's claw": 1
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 9,
+        "Hinox guts": 2,
+        "Shard of Dinraal's fang": 1
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Lynel guts": 2,
+        "Dinraal's horn": 1
+      }
+    },
+    "body": {
+      "name": "fierce deity armor",
+      "defense": 3,
+      "obtained": false,
+      "location": "Citadel Ruins",
+      "description": "Armor worn by the hero from a world in which the moon threatened to fall. Wearing it provides godlike power.",
+      "level": 0,
+      "level1": {
+        "Rupees": 10,
+        "defense": 5,
+        "Hinox toenail": 5,
+        "Dinraal's scale": 1
+      },
+      "level2": {
+        "Rupees": 50,
+        "defense": 8,
+        "Hinox tooth": 5,
+        "Dinraal's claw": 1
+      },
+      "level3": {
+        "Rupees": 200,
+        "defense": 9,
+        "Hinox guts": 2,
+        "Shard of Dinraal's fang": 1
+      },
+      "level4": {
+        "Rupees": 500,
+        "defense": 20,
+        "Lynel guts": 2,
+        "Dinraal's horn": 1
+      }
+    }
+  },
+  "hero_set": {
+    "head": {
+      "name": "cap of the hero",
+      "defense": 3,
+      "obtained": false,
+      "location": "8-bit Link Amiibo",
+      "description": "According to legend, this cap was once treasures by an ancient hero. It’s quite the simple cap, yet there is something about it that’s just so appealing…",
+      "level": 0,
+      "level1": { "Rupees": 10, "defense": 5, "Ruby": 1, "Star fragment": 1 },
+      "level2": { "Rupees": 50, "defense": 8, "Ruby": 4, "Star fragment": 1 },
+      "level3": { "Rupees": 200, "defense": 12, "Ruby": 6, "Star fragment": 1 },
+      "level4": { "Rupees": 500, "defense": 20, "Ruby": 10, "Star fragment": 1 }
+    },
+    "legs": {
+      "name": "trousers of the hero",
+      "defense": 3,
+      "obtained": false,
+      "location": "8-bit Link Amiibo",
+      "description": "Legends say these trousers were favoured by a hero from an ancient age. Their simple design is a rare aesthetic these days, but there’s something classic about them.",
+      "level": 0,
+      "level1": { "Rupees": 10, "defense": 5, "Ruby": 1, "Star fragment": 1 },
+      "level2": { "Rupees": 50, "defense": 8, "Ruby": 4, "Star fragment": 1 },
+      "level3": { "Rupees": 200, "defense": 12, "Ruby": 6, "Star fragment": 1 },
+      "level4": { "Rupees": 500, "defense": 20, "Ruby": 10, "Star fragment": 1 }
+    },
+    "body": {
+      "name": "tunic of the hero",
+      "defense": 3,
+      "obtained": false,
+      "location": "8-bit Link Amiibo",
+      "description": "Legend has it this armor was once cherished by a hero from ancient times. Its design is rather simple, but it’s such a traditional look.",
+      "level": 0,
+      "level1": { "Rupees": 10, "defense": 5, "Ruby": 1, "Star fragment": 1 },
+      "level2": { "Rupees": 50, "defense": 8, "Ruby": 4, "Star fragment": 1 },
+      "level3": { "Rupees": 200, "defense": 12, "Ruby": 6, "Star fragment": 1 },
+      "level4": { "Rupees": 500, "defense": 20, "Ruby": 10, "Star fragment": 1 }
+    }
+  }
+}
