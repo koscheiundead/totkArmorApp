@@ -4,11 +4,12 @@
   "productName": "TotK Armor Compilation",
   "author": "troy armstrong",
   "private": true,
-  "version": "0.2.0",
+  "version": "0.3.0",
   "scripts": {
     "dev": "vite build && vite",
-    "build": "vue-tsc && vite build && electron-builder",
-    "preview": "vite preview"
+    "build": "vue-tsc && vite build && electron-builder -mwl",
+    "preview": "vite preview",
+    "winbuild": "electron-builder --windows nsis:ia32"
   },
   "dependencies": {
     "@google-cloud/local-auth": "^3.0.0",
