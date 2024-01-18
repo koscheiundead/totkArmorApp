@@ -10,6 +10,11 @@ contextBridge.exposeInMainWorld('api', {
   on: (channel, data) => {
     ipcRenderer.on(channel, (event, ...args) => func(...args));
   },
-  setData: (key, value) => ipcRenderer.send('set-data', key, value),
-  getData: (key) => ipcRenderer.invoke('get-data', key)
+  saveUserData: (userData) => ipcRenderer.invoke('save-user-data', userData),
+  loadUserData: () => ipcRenderer.invoke('load-user-data')
+});
+
+contextBridge.exposeInMainWorld('electronStore', {
+  get: async (key) => await ipcRenderer.invoke('electron-store-get', key),
+  set: async (key, value) => await ipcRenderer.invoke('electron-store-set', key, value)
 });

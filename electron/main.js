@@ -40,22 +40,20 @@ app.on("window-all-closed", () => {
   }
 });
 
-
 app.whenReady().then(() => {
   createWindow()
-
-
-  ipcMain.on('set-data', (event, key, value) => {
-    store.set(key, value);
-  })
-
-  ipcMain.handle('get-data', (event, key) => {
-    return store.get(key);
-  })
 });
 
 app.on("window-all-closed", () => {
   if (process.platform !== "darwin") {
     app.quit();
   }
+});
+
+ipcMain.handle('electron-store-get', (event, key) => {
+  return store.get(key);
+});
+
+ipcMain.handle('electron-store-set', (event, key, value) => {
+  store.set(key, value);
 })
