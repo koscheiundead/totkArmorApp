@@ -135,7 +135,7 @@ watch(() => armor, () => {
 </script>
 
 <template>
-  <div id="item" :class="{ notobtained: !obtained }" v-if="!props.hide || item.obtained">
+  <div id="item" :class="{ notobtained: !obtained }" v-if="!props.hide || armor.obtained">
     <div id="topline">
       <button id="itemGetter" @click="obtain">{{ obtained ? "sell" : "obtain" }}</button>
       <h6 id="slot-placement">{{ gearSlot }}</h6>
@@ -159,49 +159,65 @@ watch(() => armor, () => {
 
 <style scoped>
 #item {
-  background-color: white;
-  border: 2px solid black;
+  background-color: #444;
+  border: 1px solid #555;
   border-radius: 5px;
-  width: 200px;
-  padding: 5px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+  max-width: 30%;
+  padding: 10px;
+  width: 100%;
 }
 
 .notobtained {
-  opacity: 50%;
+  opacity: 0.5;
 }
 
 #topline {
-  display: inline-flex;
-  align-items: start;
-  height: 20px;
+  align-items: center;
+  display: flex;
   justify-content: space-between;
-  margin: 0px !important;
-  padding: 0px !important;
-  width: 200px;
+  margin-bottom: 10px;
 }
 
-#itemGetter {
-  font-size: xx-small;
-  position: relative;
-  width: 40px;
-}
-
-#slot-placement {
-  margin: 0px;
-  text-align: center;
-  width: auto;
+#itemGetter, button {
+  background-color: var(--accent-color);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-family: var(--font-secondary);
+  font-size: smaller;
+  padding: 5px 10px;
 }
 
 #item-title {
-  border-bottom: 1px solid black;
-  height: 18px;
-  margin: 0px;
-  position: relative;
-  text-align: center;
+  color: var(--text-color);
+  font-family: var(--font-secondary);
+  margin-bottom: 10px;
 }
 
-#gear-level {
+p, h6 {
+  color: var(--text-color);
+  margin: 5px 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  color: var(--text-color);
+  margin: 5px 0;
+  padding-left: 20px;
   position: relative;
-  top: -24px;
+}
+
+ul li:before {
+  color: var(--accent-color);
+  content: '▪';
+  left: 0;
+  position: absolute;
 }
 </style>

@@ -137,34 +137,37 @@ watch(() => armorStore.items, () => {
 
 <template>
   <div id="loaded-wrapper">
-    <div id="hide-summary" :class="{ moveDown: !show }">
-      <input type="checkbox" name="hide-box" @click="toggleShow()"><label for="hide-box"><span
-          v-if="show === true">hide</span><span v-else>hide</span> side panel</label>
+    <div v-if="!show" id="hidden-side-panel">
+      <input type="checkbox" id="hide-box" @change="toggleShow">
+      <label for="hide-box">show side panel</label>
     </div>
     <div id="left-panel" v-if="show">
       <div id="recap-panel">
-        <input type="checkbox" name="obtained-box" @click="toggleObtained()"><label for="obtained-box">Obtained
+        <input type="checkbox" id="obtained-box" @change="toggleObtained"><label for="obtained-box">Obtained
           only</label>
+          <div id="shown-side-panel">
+            <input type="checkbox" id="shown-box" @change="toggleShow"><label for="shown-box">hide side panel</label>
+          </div>
         <h4>Item Summary</h4>
         <ul>
-          <li v-for="(value, key) in ingredients">{{ value }} {{ key }}</li>
+          <li v-for="(value, key) in ingredients" :key="key">{{ value }} {{ key }}</li>
         </ul>
       </div>
     </div>
+    <div id="unobtained-items-wrapper">
+      <input type="checkbox" id="unobtained-hide" @change="toggleUnobtained">
+      <label id="unobtained-hide-label" for="unobtained-hide">hide unobtained items</label>
+      <button id="reset-progress" @click="resetProgress">reset items</button>
+    </div>
     <div id="set-tiles-wrapper">
-      <div id="unobtained-items-wrapper">
-        <input type="checkbox" id="unobtained-hide" name="hide-unobtained" @click="toggleUnobtained()"><label
-          id="unobtained-hide-label" for="hide-unobtained">hide unobtained items</label>
-        <button id="save-progress" @click="resetProgress">reset</button>
-      </div>
       <div id="cluster" v-for="(armor, index) in armorObj" :key="index">
-        <itemTile v-if="armor.head" gearSlot="head" :hide=hideUnobtained :title=armor.head.name :item=armor.head
+        <itemTile class="itemTile" v-if="armor.head" gearSlot="head" :hide=hideUnobtained :title=armor.head.name :item=armor.head
           @recalculate="calcAgain">
         </itemTile>
-        <itemTile v-if="armor.body" gearSlot="body" :hide=hideUnobtained :title=armor.body.name :item=armor.body
+        <itemTile class="itemTile" v-if="armor.body" gearSlot="body" :hide=hideUnobtained :title=armor.body.name :item=armor.body
           @recalculate="calcAgain">
         </itemTile>
-        <itemTile v-if="armor.legs" gearSlot="legs" :hide=hideUnobtained :title=armor.legs.name :item=armor.legs
+        <itemTile class="itemTile" v-if="armor.legs" gearSlot="legs" :hide=hideUnobtained :title=armor.legs.name :item=armor.legs
           @recalculate="calcAgain">
         </itemTile>
       </div>
@@ -174,86 +177,126 @@ watch(() => armorStore.items, () => {
 
 <style>
 :root {
-  background-color: rebeccapurple;
+  --primary-bg-color: #342E37;
+  --secondary-bg-color: #4D426D;
+  --accent-color: #8B9A68;
+  --text-color: #EAE0D5;
+  --font-primary: 'Merriweather', serif;
+  --font-secondary: 'Montserrat', sans-serif;
+  --panel-width: 250px;
 }
 
-#left-panel {
-  position: relative;
-  top: 10px;
-}
-
-#set-tiles-wrapper {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  margin-top: 5px;
-  padding-top: 0px;
-  top: 0px;
-  width: 700px;
-}
-
-#cluster {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 10px;
-  margin-bottom: 5px;
-  position: relative;
-  width: 700px;
+body {
+  font-family: var(--font-primary);
+  color: var(--text-color);
+  background-color: var(--primary-bg-color);
 }
 
 #loaded-wrapper {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  flex-wrap: nowrap;
-  width: 95vw;
 }
 
-#hide-summary {
-  font-size: smaller;
-  left: 125px;
-  position: absolute;
-  top: 26px;
-  z-index: 1;
-}
-
-.moveDown {
-  left: 15px !important;
-}
-
-
-#recap-panel {
-  background-color: bisque;
-  border: 2px solid black;
-  border-radius: 5px;
-  left: 5px;
+#left-panel {
   margin-top: 5px;
-  opacity: 75%;
-  position: sticky;
-  width: 225px;
+  padding: 20px;
 }
 
-#recap-panel h4 {
-  margin-top: 25px;
-  text-align: center;
+#set-tiles-wrapper {
+  flex-grow: 1;
+  overflow: auto;
+  margin-top: 5px;
+  padding: 20px;
 }
 
-#recap-panel label {
+#cluster {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 30px;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.itemTile {
+  flex: 1 1 calc(33.333% - 40px);
+  max-width: calc(33.333% - 40px);
+}
+
+#hidden-side-panel {
   font-size: smaller;
+  left: 275px;
+  position: absolute;
+  top: 4px;
 }
 
 #unobtained-items-wrapper {
-  font-size: small;
+  font-size: smaller;
   position: absolute;
-  left: 15px;
-  top: 0px;
+  top: -5px;
 }
 
-#save-progress {
+#recap-panel {
+  background-color: var(--secondary-bg-color);
+  border: 1px solid #444;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+  padding: 15px;
+  width: var(--panel-width);
+}
+
+#recap-panel h4 {
+  font-family: var(--font-secondary);
+  color: var(--accent-color);
+  margin-bottom: 15px;
+}
+
+#reset-progress {
+  background-color: var(--accent-color);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
   font-size: smaller;
-  left: 150px;
-  padding: 0px 2px;
+  margin-left: 10px;
+  margin-top: 10px;
+  padding: 5px 10px;
+}
+
+input[type="checkbox"] {
+  visibility: hidden;
+  position: relative;
+}
+
+input[type="checkbox"] + label {
+  cursor: pointer;
+  padding-left: 25px;
+  position: relative;
+}
+
+input[type="checkbox"] + label:before {
+  background-color: var(--secondary-bg-color);
+  border: 2px solid var(--accent-color);
+  border-radius: 3px;
+  content: '';
+  height: 10px;
+  left: 3px;
+  position: absolute;
+  top: 1px;
+  width: 10px;
+}
+
+input[type="checkbox"]:checked + label:before {
+  background-color: var(--accent-color);
+}
+
+input[type="checkbox"]:checked + label:after {
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  content: '';
+  height: 5px;
+  left: 6px;
   position: absolute;
   top: 3px;
+  transform: rotate(45deg);
+  width: 3px;
 }
 </style>
